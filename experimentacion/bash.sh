@@ -18,6 +18,6 @@ conda activate /mnt/homeGPU/haoweihu/env/
 
 export TFHUB_CACHE_DIR=.
 
-#python /mnt/homeGPU/azapata/TFG/CreateDatasets/VOC/CreateDM.py
+python /mnt/homeGPU/haoweihu/code/examples_mnist_lenet.py
 
-mail -s "Proceso finalizado" e.haoweihu926@go.ugr.com <<< "El proceso ha finalizado"
+mail -s "Proceso finalizado" haoweihu926@gmail.com <<< "El proceso ha finalizado"
