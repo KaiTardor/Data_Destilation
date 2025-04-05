@@ -81,5 +81,5 @@ def main(train_path, name):
     print(f"F1 Score (macro): {f1}")
 
 if __name__ == '__main__':
-    main("./dataset/distilled001/mnist/example1", "mnist_dist_quant2_ex1")
-    main("./dataset/distilled001/mnist/example2", "mnist_dist_quant2_ex2")
+    main("./dataset/distilled_001/mnist/example1", "mnist_dist_quant2_ex1")
+    main("./dataset/distilled_001/mnist/example2", "mnist_dist_quant2_ex2")
