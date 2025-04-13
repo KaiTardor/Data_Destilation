@@ -19,6 +19,5 @@ conda activate /mnt/homeGPU/haoweihu/env/
 export TFHUB_CACHE_DIR=.
 
 python /mnt/homeGPU/haoweihu/code/quantize3_mnist_lenet.py
-python /mnt/homeGPU/haoweihu/code/quantize2_mnist_lenet.py
 
 mail -s "Proceso finalizado" haoweihu926@gmail.com <<< "El proceso ha finalizado"

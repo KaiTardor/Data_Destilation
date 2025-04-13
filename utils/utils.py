@@ -6,39 +6,6 @@ import shutil
 from pathlib import Path
 from PIL import Image
 from fastai.vision.core import PILImage
-
-
-def plot_label_counts(dls):
-    # Extraer y convertir las etiquetas a enteros:
-    train_labels = [int(dls.train_ds[i][1]) for i in range(len(dls.train_ds))]
-    valid_labels = [int(dls.valid_ds[i][1]) for i in range(len(dls.valid_ds))]
-
-    # Contar el número de elementos por etiqueta:
-    train_counts = Counter(train_labels)
-    valid_counts = Counter(valid_labels)
-
-    # Obtenemos el vocabulario (lista de nombres de clases) y el número de clases:
-    vocab = dls.vocab
-    n_classes = len(vocab)
-
-    # Crear listas de conteos usando los índices (0, 1, ..., n_classes-1)
-    train_data = [train_counts[i] for i in range(n_classes)]
-    valid_data = [valid_counts[i] for i in range(n_classes)]
-
-    # Configurar el gráfico de barras agrupadas:
-    x = np.arange(n_classes)
-    width = 0.35
-
-    fig, ax = plt.subplots(figsize=(10,6))
-    ax.bar(x - width/2, train_data, width, label='Train', color='blue')
-    ax.bar(x + width/2, valid_data, width, label='Valid', color='yellow')
-
-    ax.set_ylabel('Número de elementos')
-    ax.set_xticks(x)
-    ax.set_xticklabels(vocab)
-    ax.legend()
-
-    plt.show()
     
 def media_arit(image_paths):
     avg_image = None
