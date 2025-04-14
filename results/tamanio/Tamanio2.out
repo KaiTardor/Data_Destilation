@@ -1,0 +1,115 @@
+---------------------------------------------------------------------------
+--------------------------MNIST---------------------------------------------
+---------------------------------------------------------------------------
+Total de imágenes en el dataset: 60000
+
+Detalles por imagen (Formato: [Original | Quantizada_BI | Quantizada_TRI | Otsu] y % reducción):
+14076.png: 180 bytes | 117 bytes (BI, -35.00%) | 132 bytes (TRI, -26.67%) | 114 bytes (Otsu, -36.67%)
+25088.png: 230 bytes | 139 bytes (BI, -39.57%) | 161 bytes (TRI, -30.00%) | 147 bytes (Otsu, -36.09%)
+11484.png: 168 bytes | 154 bytes (BI, -8.33%) | 177 bytes (TRI, --5.36%) | 158 bytes (Otsu, -5.95%)
+50249.png: 161 bytes | 110 bytes (BI, -31.68%) | 126 bytes (TRI, -21.74%) | 102 bytes (Otsu, -36.65%)
+13308.png: 194 bytes | 123 bytes (BI, -36.60%) | 140 bytes (TRI, -27.84%) | 126 bytes (Otsu, -35.05%)
+47011.png: 257 bytes | 148 bytes (BI, -42.41%) | 174 bytes (TRI, -32.30%) | 159 bytes (Otsu, -38.13%)
+42209.png: 219 bytes | 144 bytes (BI, -34.25%) | 158 bytes (TRI, -27.85%) | 149 bytes (Otsu, -31.96%)
+647.png: 235 bytes | 151 bytes (BI, -35.74%) | 168 bytes (TRI, -28.51%) | 145 bytes (Otsu, -38.30%)
+44830.png: 241 bytes | 156 bytes (BI, -35.27%) | 169 bytes (TRI, -29.88%) | 147 bytes (Otsu, -39.00%)
+43215.png: 285 bytes | 152 bytes (BI, -46.67%) | 180 bytes (TRI, -36.84%) | 161 bytes (Otsu, -43.51%)
+35814.png: 250 bytes | 143 bytes (BI, -42.80%) | 165 bytes (TRI, -34.00%) | 144 bytes (Otsu, -42.40%)
+42366.png: 265 bytes | 143 bytes (BI, -46.04%) | 172 bytes (TRI, -35.09%) | 153 bytes (Otsu, -42.26%)
+34493.png: 194 bytes | 122 bytes (BI, -37.11%) | 141 bytes (TRI, -27.32%) | 124 bytes (Otsu, -36.08%)
+35626.png: 262 bytes | 152 bytes (BI, -41.98%) | 171 bytes (TRI, -34.73%) | 152 bytes (Otsu, -41.98%)
+36703.png: 309 bytes | 154 bytes (BI, -50.16%) | 183 bytes (TRI, -40.78%) | 160 bytes (Otsu, -48.22%)
+49397.png: 203 bytes | 137 bytes (BI, -32.51%) | 154 bytes (TRI, -24.14%) | 138 bytes (Otsu, -32.02%)
+20247.png: 167 bytes | 151 bytes (BI, -9.58%) | 174 bytes (TRI, --4.19%) | 153 bytes (Otsu, -8.38%)
+35192.png: 279 bytes | 152 bytes (BI, -45.52%) | 171 bytes (TRI, -38.71%) | 151 bytes (Otsu, -45.88%)
+48244.png: 223 bytes | 137 bytes (BI, -38.57%) | 159 bytes (TRI, -28.70%) | 142 bytes (Otsu, -36.32%)
+10048.png: 185 bytes | 128 bytes (BI, -30.81%) | 144 bytes (TRI, -22.16%) | 129 bytes (Otsu, -30.27%)
+12411.png: 155 bytes | 145 bytes (BI, -6.45%) | 168 bytes (TRI, --8.39%) | 151 bytes (Otsu, -2.58%)
+31071.png: 296 bytes | 152 bytes (BI, -48.65%) | 179 bytes (TRI, -39.53%) | 162 bytes (Otsu, -45.27%)
+33695.png: 267 bytes | 150 bytes (BI, -43.82%) | 170 bytes (TRI, -36.33%) | 153 bytes (Otsu, -42.70%)
+40879.png: 154 bytes | 114 bytes (BI, -25.97%) | 118 bytes (TRI, -23.38%) | 105 bytes (Otsu, -31.82%)
+40010.png: 309 bytes | 156 bytes (BI, -49.51%) | 182 bytes (TRI, -41.10%) | 165 bytes (Otsu, -46.60%)
+
+Resumen acumulado de los 25 ejemplos:
+  Total Original: 5688 bytes
+  Total umbralizacion_bi: 3530 bytes
+  Total umbralizacion_tri: 4036 bytes
+  Total otsu_threshold: 3590 bytes
+  Reducción total: BI -37.94%, TRI -29.04%, Otsu -36.88%
+---------------------------------------------------------------------------
+--------------------------FASHION MNIST-------------------------------------
+---------------------------------------------------------------------------
+Total de imágenes en el dataset: 60000
+
+Detalles por imagen (Formato: [Original | Quantizada_BI | Quantizada_TRI | Otsu] y % reducción):
+1923.png: 550 bytes | 130 bytes (BI, -76.36%) | 208 bytes (TRI, -62.18%) | 150 bytes (Otsu, -72.73%)
+15517.png: 466 bytes | 133 bytes (BI, -71.46%) | 172 bytes (TRI, -63.09%) | 135 bytes (Otsu, -71.03%)
+24712.png: 463 bytes | 120 bytes (BI, -74.08%) | 174 bytes (TRI, -62.42%) | 127 bytes (Otsu, -72.57%)
+14037.png: 289 bytes | 105 bytes (BI, -63.67%) | 123 bytes (TRI, -57.44%) | 107 bytes (Otsu, -62.98%)
+53518.png: 540 bytes | 145 bytes (BI, -73.15%) | 216 bytes (TRI, -60.00%) | 145 bytes (Otsu, -73.15%)
+8944.png: 432 bytes | 143 bytes (BI, -66.90%) | 169 bytes (TRI, -60.88%) | 134 bytes (Otsu, -68.98%)
+17489.png: 470 bytes | 133 bytes (BI, -71.70%) | 209 bytes (TRI, -55.53%) | 146 bytes (Otsu, -68.94%)
+45631.png: 385 bytes | 144 bytes (BI, -62.60%) | 169 bytes (TRI, -56.10%) | 134 bytes (Otsu, -65.19%)
+29100.png: 494 bytes | 129 bytes (BI, -73.89%) | 161 bytes (TRI, -67.41%) | 136 bytes (Otsu, -72.47%)
+3155.png: 597 bytes | 138 bytes (BI, -76.88%) | 233 bytes (TRI, -60.97%) | 150 bytes (Otsu, -74.87%)
+167.png: 448 bytes | 136 bytes (BI, -69.64%) | 167 bytes (TRI, -62.72%) | 133 bytes (Otsu, -70.31%)
+4450.png: 538 bytes | 143 bytes (BI, -73.42%) | 200 bytes (TRI, -62.83%) | 155 bytes (Otsu, -71.19%)
+55608.png: 496 bytes | 136 bytes (BI, -72.58%) | 179 bytes (TRI, -63.91%) | 136 bytes (Otsu, -72.58%)
+55297.png: 589 bytes | 143 bytes (BI, -75.72%) | 218 bytes (TRI, -62.99%) | 157 bytes (Otsu, -73.34%)
+5375.png: 590 bytes | 150 bytes (BI, -74.58%) | 219 bytes (TRI, -62.88%) | 155 bytes (Otsu, -73.73%)
+29399.png: 458 bytes | 151 bytes (BI, -67.03%) | 181 bytes (TRI, -60.48%) | 146 bytes (Otsu, -68.12%)
+47322.png: 493 bytes | 143 bytes (BI, -70.99%) | 175 bytes (TRI, -64.50%) | 147 bytes (Otsu, -70.18%)
+22569.png: 536 bytes | 133 bytes (BI, -75.19%) | 209 bytes (TRI, -61.01%) | 147 bytes (Otsu, -72.57%)
+27036.png: 413 bytes | 145 bytes (BI, -64.89%) | 179 bytes (TRI, -56.66%) | 152 bytes (Otsu, -63.20%)
+25861.png: 408 bytes | 152 bytes (BI, -62.75%) | 174 bytes (TRI, -57.35%) | 145 bytes (Otsu, -64.46%)
+45151.png: 686 bytes | 150 bytes (BI, -78.13%) | 232 bytes (TRI, -66.18%) | 161 bytes (Otsu, -76.53%)
+14805.png: 671 bytes | 179 bytes (BI, -73.32%) | 224 bytes (TRI, -66.62%) | 187 bytes (Otsu, -72.13%)
+59774.png: 616 bytes | 141 bytes (BI, -77.11%) | 214 bytes (TRI, -65.26%) | 143 bytes (Otsu, -76.79%)
+44801.png: 439 bytes | 132 bytes (BI, -69.93%) | 161 bytes (TRI, -63.33%) | 127 bytes (Otsu, -71.07%)
+24282.png: 520 bytes | 175 bytes (BI, -66.35%) | 214 bytes (TRI, -58.85%) | 144 bytes (Otsu, -72.31%)
+
+Resumen acumulado de los 25 ejemplos:
+  Total Original: 12587 bytes
+  Total umbralizacion_bi: 3529 bytes
+  Total umbralizacion_tri: 4780 bytes
+  Total otsu_threshold: 3599 bytes
+  Reducción total: BI -71.96%, TRI -62.02%, Otsu -71.41%
+---------------------------------------------------------------------------
+--------------------------CIFAR---------------------------------------------
+---------------------------------------------------------------------------
+Total de imágenes en el dataset: 50000
+
+Detalles por imagen (Formato: [Original | Quantizada_BI | Quantizada_TRI | Otsu] y % reducción):
+34252_dog.png: 2845 bytes | 151 bytes (BI, -94.69%) | 210 bytes (TRI, -92.62%) | 179 bytes (Otsu, -93.71%)
+30416_truck.png: 2731 bytes | 159 bytes (BI, -94.18%) | 198 bytes (TRI, -92.75%) | 185 bytes (Otsu, -93.23%)
+35533_truck.png: 2156 bytes | 166 bytes (BI, -92.30%) | 205 bytes (TRI, -90.49%) | 186 bytes (Otsu, -91.37%)
+33053_truck.png: 3126 bytes | 202 bytes (BI, -93.54%) | 252 bytes (TRI, -91.94%) | 181 bytes (Otsu, -94.21%)
+35840_automobile.png: 2774 bytes | 182 bytes (BI, -93.44%) | 231 bytes (TRI, -91.67%) | 215 bytes (Otsu, -92.25%)
+3234_truck.png: 3116 bytes | 157 bytes (BI, -94.96%) | 218 bytes (TRI, -93.00%) | 141 bytes (Otsu, -95.47%)
+3175_truck.png: 3143 bytes | 167 bytes (BI, -94.69%) | 236 bytes (TRI, -92.49%) | 180 bytes (Otsu, -94.27%)
+45386_ship.png: 2250 bytes | 121 bytes (BI, -94.62%) | 160 bytes (TRI, -92.89%) | 127 bytes (Otsu, -94.36%)
+21946_deer.png: 3146 bytes | 189 bytes (BI, -93.99%) | 253 bytes (TRI, -91.96%) | 177 bytes (Otsu, -94.37%)
+7177_automobile.png: 3089 bytes | 175 bytes (BI, -94.33%) | 240 bytes (TRI, -92.23%) | 173 bytes (Otsu, -94.40%)
+37892_horse.png: 3002 bytes | 140 bytes (BI, -95.34%) | 193 bytes (TRI, -93.57%) | 135 bytes (Otsu, -95.50%)
+24085_ship.png: 3018 bytes | 138 bytes (BI, -95.43%) | 204 bytes (TRI, -93.24%) | 153 bytes (Otsu, -94.93%)
+985_frog.png: 3252 bytes | 227 bytes (BI, -93.02%) | 295 bytes (TRI, -90.93%) | 209 bytes (Otsu, -93.57%)
+32234_ship.png: 2409 bytes | 146 bytes (BI, -93.94%) | 190 bytes (TRI, -92.11%) | 161 bytes (Otsu, -93.32%)
+2804_airplane.png: 2855 bytes | 199 bytes (BI, -93.03%) | 249 bytes (TRI, -91.28%) | 163 bytes (Otsu, -94.29%)
+47042_airplane.png: 2085 bytes | 160 bytes (BI, -92.33%) | 228 bytes (TRI, -89.06%) | 170 bytes (Otsu, -91.85%)
+1915_horse.png: 3151 bytes | 199 bytes (BI, -93.68%) | 243 bytes (TRI, -92.29%) | 196 bytes (Otsu, -93.78%)
+38036_airplane.png: 2978 bytes | 204 bytes (BI, -93.15%) | 262 bytes (TRI, -91.20%) | 155 bytes (Otsu, -94.80%)
+40889_dog.png: 2990 bytes | 190 bytes (BI, -93.65%) | 243 bytes (TRI, -91.87%) | 221 bytes (Otsu, -92.61%)
+3314_deer.png: 3189 bytes | 208 bytes (BI, -93.48%) | 290 bytes (TRI, -90.91%) | 200 bytes (Otsu, -93.73%)
+28651_frog.png: 3117 bytes | 170 bytes (BI, -94.55%) | 234 bytes (TRI, -92.49%) | 183 bytes (Otsu, -94.13%)
+43783_airplane.png: 2720 bytes | 174 bytes (BI, -93.60%) | 224 bytes (TRI, -91.76%) | 196 bytes (Otsu, -92.79%)
+46944_ship.png: 2603 bytes | 147 bytes (BI, -94.35%) | 185 bytes (TRI, -92.89%) | 167 bytes (Otsu, -93.58%)
+49591_ship.png: 2831 bytes | 153 bytes (BI, -94.60%) | 181 bytes (TRI, -93.61%) | 157 bytes (Otsu, -94.45%)
+21038_frog.png: 3240 bytes | 198 bytes (BI, -93.89%) | 281 bytes (TRI, -91.33%) | 234 bytes (Otsu, -92.78%)
+
+Resumen acumulado de los 25 ejemplos:
+  Total Original: 71816 bytes
+  Total umbralizacion_bi: 4322 bytes
+  Total umbralizacion_tri: 5705 bytes
+  Total otsu_threshold: 4444 bytes
+  Reducción total: BI -93.98%, TRI -92.06%, Otsu -93.81%
+mail: cannot send message: Process exited with a non-zero status

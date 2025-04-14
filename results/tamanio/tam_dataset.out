@@ -1,0 +1,34 @@
+---------------------------------------------------------------------------
+--------------------------MNIST---------------------------------------------
+---------------------------------------------------------------------------
+Total de imágenes en el dataset: 60000
+
+Resumen acumulado del dataset:
+  Total Original: 14995764 bytes
+  Total umbralizacion_bi: 8627286 bytes
+  Total umbralizacion_tri: 9964170 bytes
+  Total otsu_threshold: 8842665 bytes
+  Porcentaje de reducción: BI -42.47%, TRI -33.55%, Otsu -41.03%
+---------------------------------------------------------------------------
+--------------------------FASHION MNIST-------------------------------------
+---------------------------------------------------------------------------
+Total de imágenes en el dataset: 60000
+
+Resumen acumulado del dataset:
+  Total Original: 30329107 bytes
+  Total umbralizacion_bi: 8439006 bytes
+  Total umbralizacion_tri: 11305380 bytes
+  Total otsu_threshold: 8758960 bytes
+  Porcentaje de reducción: BI -72.18%, TRI -62.72%, Otsu -71.12%
+---------------------------------------------------------------------------
+--------------------------CIFAR---------------------------------------------
+---------------------------------------------------------------------------
+Total de imágenes en el dataset: 50000
+
+Resumen acumulado del dataset:
+  Total Original: 146900618 bytes
+  Total umbralizacion_bi: 9109999 bytes
+  Total umbralizacion_tri: 12001743 bytes
+  Total otsu_threshold: 9888707 bytes
+  Porcentaje de reducción: BI -93.80%, TRI -91.83%, Otsu -93.27%
+mail: cannot send message: Process exited with a non-zero status
