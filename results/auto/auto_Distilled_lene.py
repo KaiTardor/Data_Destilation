@@ -6,7 +6,7 @@ from utils.lenet import LeNet
 from utils.utils import *  
 from fastai.callback.progress import ProgressCallback
 
-def main(train_path, name):
+def main(train_path, test_path, name):
     print(f"---------------------------------------------------------------------------")
     print(f"Ejecutando: {name}")
     print(f"---------------------------------------------------------------------------")
@@ -18,7 +18,7 @@ def main(train_path, name):
         get_items=get_image_files,
         splitter=GrandparentSplitter(train_name='training', valid_name='valid'),
         get_y=parent_label,
-        item_tfms=[otsu_threshold_transform, Resize(28)]
+        item_tfms=[Resize(28)]
     )
 
     dls = dblock.dataloaders(train_path, bs=64)
@@ -73,12 +73,13 @@ def main(train_path, name):
         get_items=get_image_files,
         get_y=parent_label,
         splitter=IndexSplitter([]),
-        item_tfms=[otsu_threshold_transform, Resize(28)]
+        item_tfms=[Resize(28)]
     )
 
-    test_dls = test_block.dataloaders("/mnt/homeGPU/haoweihu/code/dataset/original/mnist_png/testing")
+    #test_dls = test_block.dataloaders("/mnt/homeGPU/haoweihu/code/dataset/original/mnist_png/testing")
     #test_dls = test_block.dataloaders("/mnt/homeGPU/haoweihu/code/dataset/original/fashion_mnist/test")
     #test_dls = test_block.dataloaders("/mnt/homeGPU/haoweihu/code/dataset/original/cifar10/test")
+    test_dls = test_block.dataloaders(test_path)
 
     # Cargar el modelo previamente exportado y remover el callback de EarlyStopping
     learn = load_learner('/mnt/homeGPU/haoweihu/code/models/'+name+'.pkl')
@@ -93,50 +94,27 @@ def main(train_path, name):
 
 if __name__ == '__main__':
     print(f"---------------------------------------------------------------------------")
-    print("--------------------------MNIST DISTILLED 01--------------------------------")
+    print("--------------------------MODELOS DISTILLED 001-----------------------------")
     print(f"---------------------------------------------------------------------------")
-    main("/mnt/homeGPU/haoweihu/code/dataset/distilled_01/mnist/example1", "mnist_dist1_ex1")
-    main("/mnt/homeGPU/haoweihu/code/dataset/distilled_01/mnist/example2", "mnist_dist1_ex2")
-    main("/mnt/homeGPU/haoweihu/code/dataset/distilled_01/mnist/example3", "mnist_dist1_ex3")
-    
-    #print(f"---------------------------------------------------------------------------")
-    #print("--------------------------fmnist distilld 01-----------------------------")
-    #print(f"---------------------------------------------------------------------------")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_01/fmnist/example1", "fmnist_dist1_ex1")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_01/fmnist/example2", "fmnist_dist1_ex2")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_01/fmnist/example3", "fmnist_dist1_ex3")
-    
-    #print(f"---------------------------------------------------------------------------")
-    #print("--------------------------cifar distilld 01-----------------------------")
-    #print(f"---------------------------------------------------------------------------")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_01/cifar10/example1", "cifar10_dist1_ex1")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_01/cifar10/example2", "cifar10_dist1_ex2")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_01/cifar10/example3", "cifar10_dist1_ex3")
-    
-    
-    #print(f"---------------------------------------------------------------------------")
-    print("--------------------------distilld 02-----------------------------")
-    #print(f"---------------------------------------------------------------------------")
-    main("/mnt/homeGPU/haoweihu/code/dataset/distilled_02/mnist/example1", "mnist_dist2_ex1")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_02/fmnist/example1", "fmnist_dist2_ex1")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_02/cifar10/example1", "cifar10_dist2_ex1")
-    
+    main("/mnt/homeGPU/haoweihu/code/dataset/auto/distilled_001/mnist/example2", "/mnt/homeGPU/haoweihu/code/dataset/original/mnist_png/testing", "mnist_dist1_auto_ex2")
+    main("/mnt/homeGPU/haoweihu/code/dataset/auto/distilled_001/fmnist/example2", "/mnt/homeGPU/haoweihu/code/dataset/original/fashion_mnist/test", "fmnist_dist1_auto_ex2")
+    main("/mnt/homeGPU/haoweihu/code/dataset/auto/distilled_001/cifar10/example2", "/mnt/homeGPU/haoweihu/code/dataset/original/cifar10/test", "cifar_dist1_auto_ex2")
+
     
     print(f"---------------------------------------------------------------------------")
-    print("--------------------------distilld 04-----------------------------")
+    print("--------------------------MODELOS DISTILLED 005-----------------------------")
     print(f"---------------------------------------------------------------------------")
-    main("/mnt/homeGPU/haoweihu/code/dataset/distilled_04/mnist/example1", "mnist_dist4_ex1")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_04/fmnist/example1", "fmnist_dist4_ex1")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_04/cifar10/example1", "cifar10_dist4_ex1")
+    main("/mnt/homeGPU/haoweihu/code/dataset/auto/distilled_005/mnist/example2", "/mnt/homeGPU/haoweihu/code/dataset/original/mnist_png/testing", "mnist_dist5_auto_ex2")
+    main("/mnt/homeGPU/haoweihu/code/dataset/auto/distilled_005/fmnist/example2", "/mnt/homeGPU/haoweihu/code/dataset/original/fashion_mnist/test", "fmnist_dist5_auto_ex2")
+    main("/mnt/homeGPU/haoweihu/code/dataset/auto/distilled_005/cifar10/example2", "/mnt/homeGPU/haoweihu/code/dataset/original/cifar10/test", "cifar_dist5_auto_ex2")
+
     
-    #print(f"---------------------------------------------------------------------------")
-    #print("--------------------------distilld 99-----------------------------")
-    #print(f"---------------------------------------------------------------------------")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_99/mnist/example1", "mnist_dist99_ex1")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_99/fmnist/example1", "fmnist_dist99_ex1")
-    #main("/mnt/homeGPU/haoweihu/code/dataset/distilled_99/cifar10/example1", "cifar10_dist99_ex1")
-    
-    
-    
+    print(f"---------------------------------------------------------------------------")
+    print("--------------------------MODELOS DISTILLED 0001----------------------------")
+    print(f"---------------------------------------------------------------------------")
+    main("/mnt/homeGPU/haoweihu/code/dataset/auto/distilled_0001/mnist/example2", "/mnt/homeGPU/haoweihu/code/dataset/original/mnist_png/testing", "mnist_dist01_auto_ex2")
+    main("/mnt/homeGPU/haoweihu/code/dataset/auto/distilled_0001/fmnist/example2", "/mnt/homeGPU/haoweihu/code/dataset/original/fashion_mnist/test", "fmnist_dist01_auto_ex2")
+    main("/mnt/homeGPU/haoweihu/code/dataset/auto/distilled_0001/cifar10/example2", "/mnt/homeGPU/haoweihu/code/dataset/original/cifar10/test", "cifar_dist01_auto_ex2")
+
 
     
