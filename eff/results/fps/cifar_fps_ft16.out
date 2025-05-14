@@ -1,0 +1,379 @@
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=EfficientNet_V2_S_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_V2_S_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+---------------------------------------------------------------------------
+Ejecutando: cifar_10pct_effnetv2s_fps
+---------------------------------------------------------------------------
+False
+Número total de imágenes en entrenamiento: 4000
+Número total de imágenes en validación: 10000
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+weights = None
+[0, 3.189551591873169, nan, 0.35499998927116394, 0.355, 0.34559932332068116, '00:47']
+[1, 2.441585063934326, 1.33754301071167, 0.583899974822998, 0.5839000000000001, 0.5790155770899788, '00:46']
+[2, 1.8262404203414917, nan, 0.6754999756813049, 0.6754999999999999, 0.6728270944883634, '00:46']
+[3, 1.4540005922317505, nan, 0.7432000041007996, 0.7432, 0.7420186771155454, '00:46']
+[4, 1.1993132829666138, nan, 0.7705000042915344, 0.7705, 0.7709918109091408, '00:46']
+[5, 1.0109784603118896, nan, 0.7912999987602234, 0.7913, 0.7895960553470751, '00:46']
+[6, 0.8434534668922424, nan, 0.8256000280380249, 0.8256, 0.8245437909488732, '00:46']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 326.87 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss (valid): nan
+Accuracy (valid): 0.8256
+Recall (valid): 0.8256
+F1-Score (valid): 0.8245
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=EfficientNet_V2_S_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_V2_S_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loss (test): 0.5589
+Accuracy (test): 0.8276
+Recall (test): 0.8276
+F1-Score (test): 0.8263
+---------------------------------------------------------------------------
+Ejecutando: cifar_20pct_effnetv2s_fps
+---------------------------------------------------------------------------
+False
+Número total de imágenes en entrenamiento: 8000
+Número total de imágenes en validación: 10000
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+weights = None
+[0, 2.590578556060791, nan, 0.4846999943256378, 0.4847, 0.4803288482493178, '01:08']
+[1, 1.766939640045166, nan, 0.6743000149726868, 0.6742999999999999, 0.6717383199623449, '01:04']
+[2, 1.3284870386123657, nan, 0.758400022983551, 0.7584000000000001, 0.756522695466636, '01:04']
+[3, 1.0240325927734375, nan, 0.8039000034332275, 0.8039000000000002, 0.8028322922847654, '01:05']
+[4, 0.8485335111618042, nan, 0.8277999758720398, 0.8278000000000001, 0.8274937865001402, '01:04']
+No improvement since epoch -1: early stopping
+
+Tiempo de entrenamiento: 328.28 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss (valid): nan
+Accuracy (valid): 0.8278
+Recall (valid): 0.8278
+F1-Score (valid): 0.8275
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=EfficientNet_V2_S_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_V2_S_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loss (test): 0.5216
+Accuracy (test): 0.8369
+Recall (test): 0.8370
+F1-Score (test): 0.8366
+---------------------------------------------------------------------------
+Ejecutando: cifar_30pct_effnetv2s_fps
+---------------------------------------------------------------------------
+False
+Número total de imágenes en entrenamiento: 12000
+Número total de imágenes en validación: 10000
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+weights = None
+[0, 2.2690839767456055, nan, 0.5864999890327454, 0.5865000000000001, 0.5821110649930519, '01:29']
+[1, 1.5001401901245117, nan, 0.7268999814987183, 0.7268999999999999, 0.7271213568675188, '01:23']
+[2, 1.0920205116271973, nan, 0.7874000072479248, 0.7874000000000001, 0.7870034902951661, '01:23']
+[3, 0.8799095749855042, nan, 0.8353999853134155, 0.8353999999999999, 0.8342127083782307, '01:24']
+[4, 0.6250612735748291, nan, 0.8725000023841858, 0.8724999999999999, 0.8724300254115587, '01:24']
+No improvement since epoch -1: early stopping
+
+Tiempo de entrenamiento: 425.31 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss (valid): nan
+Accuracy (valid): 0.8725
+Recall (valid): 0.8725
+F1-Score (valid): 0.8724
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=EfficientNet_V2_S_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_V2_S_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loss (test): 4.4880
+Accuracy (test): 0.8713
+Recall (test): 0.8713
+F1-Score (test): 0.8712
+---------------------------------------------------------------------------
+Ejecutando: cifar_40pct_effnetv2s_fps
+---------------------------------------------------------------------------
+False
+Número total de imágenes en entrenamiento: 16000
+Número total de imágenes en validación: 10000
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+weights = None
+[0, 1.9924262762069702, nan, 0.6344000101089478, 0.6344000000000001, 0.6317716825745637, '01:54']
+[1, 1.333911657333374, nan, 0.7513999938964844, 0.7514000000000001, 0.7514405526146408, '01:43']
+[2, 0.9817737340927124, nan, 0.8108999729156494, 0.8109, 0.8114571995569465, '01:43']
+[3, 0.734936535358429, nan, 0.8601999878883362, 0.8602000000000001, 0.860590829474823, '01:43']
+[4, 0.5304180383682251, nan, 0.899399995803833, 0.8994, 0.8986599599836833, '01:43']
+No improvement since epoch -1: early stopping
+
+Tiempo de entrenamiento: 528.41 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss (valid): nan
+Accuracy (valid): 0.8994
+Recall (valid): 0.8994
+F1-Score (valid): 0.8987
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=EfficientNet_V2_S_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_V2_S_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loss (test): 7.7777
+Accuracy (test): 0.8972
+Recall (test): 0.8972
+F1-Score (test): 0.8965
+---------------------------------------------------------------------------
+Ejecutando: cifar_50pct_effnetv2s_fps
+---------------------------------------------------------------------------
+False
+Número total de imágenes en entrenamiento: 20000
+Número total de imágenes en validación: 10000
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+weights = None
+[0, 1.7962509393692017, nan, 0.6564000248908997, 0.6564, 0.6526034369057325, '02:08']
+[1, 1.220636010169983, nan, 0.7634999752044678, 0.7635, 0.763045916785325, '02:01']
+[2, 0.886641263961792, 0.6991235613822937, 0.83160001039505, 0.8316000000000001, 0.8308898368160014, '02:02']
+[3, 0.6475208401679993, nan, 0.8823999762535095, 0.8824, 0.882299645602135, '02:02']
+[4, 0.4181228578090668, 0.2569895386695862, 0.9151999950408936, 0.9152000000000001, 0.9147725705601374, '02:01']
+[5, 0.3448967933654785, 0.19741804897785187, 0.9340000152587891, 0.9339999999999999, 0.9338121688362394, '02:01']
+[6, 0.27699926495552063, 0.1656646430492401, 0.9444000124931335, 0.9443999999999999, 0.9443540615096755, '02:01']
+[7, 0.22034715116024017, 0.14053016901016235, 0.9523000121116638, 0.9522999999999999, 0.9521839885992293, '02:01']
+[8, 0.17958196997642517, 0.12847258150577545, 0.9567999839782715, 0.9568, 0.9566569321753932, '02:01']
+[9, 0.1653619110584259, 0.11528990417718887, 0.9623000025749207, 0.9622999999999999, 0.9622669256480914, '02:02']
+[10, 0.15675602853298187, 0.11401894688606262, 0.9613999724388123, 0.9613999999999999, 0.9613192750883626, '02:02']
+[11, 0.13176997005939484, 0.10407102108001709, 0.9663000106811523, 0.9663, 0.9662492927928144, '02:02']
+[12, 0.11480560153722763, 0.09936817735433578, 0.9664000272750854, 0.9663999999999998, 0.966349588254168, '02:02']
+[13, 0.11877233535051346, 0.0979478731751442, 0.9679999947547913, 0.9679999999999997, 0.9679337699572628, '02:03']
+[14, 0.10298094898462296, 0.1008782833814621, 0.9674999713897705, 0.9674999999999999, 0.9674128998091964, '02:03']
+[15, 0.08016020059585571, 0.09199953824281693, 0.9706000089645386, 0.9705999999999999, 0.97058137508531, '02:04']
+[16, 0.0753454938530922, 0.09537766128778458, 0.9708999991416931, 0.9709000000000001, 0.9708704578184901, '02:05']
+[17, 0.08170302212238312, 0.09435247629880905, 0.9707000255584717, 0.9707000000000001, 0.9706931627324586, '02:04']
+[18, 0.0703074187040329, 0.0971503034234047, 0.9708999991416931, 0.9709, 0.9708556479084287, '02:02']
+[19, 0.06499791145324707, 0.09395117312669754, 0.9710999727249146, 0.9710999999999999, 0.97104385324359, '02:03']
+[20, 0.06060199812054634, 0.08906561136245728, 0.972100019454956, 0.9721, 0.9720754233580259, '02:02']
+[21, 0.06400870531797409, 0.09226590394973755, 0.972100019454956, 0.9721, 0.9720665876438765, '02:02']
+[22, 0.049420472234487534, 0.09467560797929764, 0.9710000157356262, 0.9709999999999999, 0.970970368241235, '02:02']
+[23, 0.053185392171144485, 0.09370773285627365, 0.9710000157356262, 0.9709999999999999, 0.9709519018877499, '02:02']
+[24, 0.0549929216504097, 0.08811577409505844, 0.9725000262260437, 0.9724999999999999, 0.9724700017931234, '02:04']
+[25, 0.04916243255138397, 0.08693496137857437, 0.9726999998092651, 0.9726999999999999, 0.9726584889512061, '02:03']
+[26, 0.052958596497774124, 0.08882010728120804, 0.9733999967575073, 0.9734, 0.9733550002087481, '02:03']
+[27, 0.03967935964465141, 0.08957844227552414, 0.972599983215332, 0.9725999999999999, 0.9725501961530485, '02:02']
+[28, 0.04617724195122719, 0.08772730827331543, 0.9728000164031982, 0.9728, 0.9727565353192237, '02:04']
+[29, 0.04471675679087639, 0.08744408935308456, 0.9732000231742859, 0.9732, 0.9731601871444819, '02:07']
+
+Tiempo de entrenamiento: 3694.44 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss (valid): 0.0874
+Accuracy (valid): 0.9732
+Recall (valid): 0.9732
+F1-Score (valid): 0.9732
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=EfficientNet_V2_S_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_V2_S_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loss (test): 0.1001
+Accuracy (test): 0.9696
+Recall (test): 0.9696
+F1-Score (test): 0.9696
+---------------------------------------------------------------------------
+Ejecutando: cifar_60pct_effnetv2s_fps
+---------------------------------------------------------------------------
+False
+Número total de imágenes en entrenamiento: 24000
+Número total de imágenes en validación: 10000
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+weights = None
+[0, 1.6956344842910767, 0.9991118907928467, 0.6748999953269958, 0.6749, 0.6720327444651849, '02:28']
+[1, 1.1746916770935059, nan, 0.7872999906539917, 0.7873, 0.7868535157223598, '02:21']
+[2, 0.8176368474960327, nan, 0.8409000039100647, 0.8408999999999999, 0.8406276613486586, '02:21']
+[3, 0.5503641963005066, 0.41854169964790344, 0.8939999938011169, 0.8939999999999999, 0.8937435574363987, '02:21']
+[4, 0.4259006679058075, nan, 0.9247000217437744, 0.9247, 0.9242949208801647, '02:21']
+[5, 0.2882341146469116, nan, 0.9437000155448914, 0.9437, 0.9435492275409484, '02:21']
+[6, 0.24027888476848602, nan, 0.9532999992370605, 0.9532999999999999, 0.9531313238322985, '02:20']
+[7, 0.18792952597141266, nan, 0.9593999981880188, 0.9594000000000001, 0.9593201959704316, '02:21']
+[8, 0.16714896261692047, 0.18753854930400848, 0.9631999731063843, 0.9632, 0.9631254336741042, '02:20']
+[9, 0.15659824013710022, 0.11008010059595108, 0.9646999835968018, 0.9646999999999999, 0.9646559731795756, '02:20']
+[10, 0.11819780617952347, 0.10324452072381973, 0.9667999744415283, 0.9667999999999999, 0.9667566011793989, '02:21']
+[11, 0.12244845926761627, 0.09959299117326736, 0.9682999849319458, 0.9682999999999999, 0.9682698568459569, '02:22']
+[12, 0.10952192544937134, 0.09883884340524673, 0.9681000113487244, 0.9681000000000001, 0.9680934030389226, '02:21']
+[13, 0.10196130722761154, 0.09467854350805283, 0.968500018119812, 0.9684999999999999, 0.9685159569400111, '02:21']
+[14, 0.08651580661535263, 0.09834493696689606, 0.9672999978065491, 0.9673, 0.9672717653066532, '02:21']
+[15, 0.09587425738573074, 0.09333138167858124, 0.9703999757766724, 0.9704, 0.9703756804944754, '02:21']
+[16, 0.07075409591197968, 0.09522871673107147, 0.9713000059127808, 0.9713, 0.97126834717289, '02:21']
+[17, 0.06835977733135223, 0.09023232012987137, 0.9714999794960022, 0.9715, 0.9715105532529729, '02:21']
+[18, 0.06287786364555359, 0.09114351868629456, 0.9728000164031982, 0.9728, 0.972786214674229, '02:21']
+[19, 0.05495484173297882, 0.08978074789047241, 0.9714000225067139, 0.9714, 0.9713819789714657, '02:21']
+[20, 0.05654735118150711, 0.08903177827596664, 0.9726999998092651, 0.9726999999999999, 0.9726809286710651, '02:22']
+[21, 0.054513391107320786, 0.0886276364326477, 0.9722999930381775, 0.9722999999999999, 0.9722998780171818, '02:22']
+[22, 0.05574186146259308, 0.09087184071540833, 0.9731000065803528, 0.9731, 0.9730665051848362, '02:22']
+[23, 0.05313538759946823, 0.08922269195318222, 0.9733999967575073, 0.9733999999999998, 0.9733932649237147, '02:21']
+[24, 0.05096251890063286, 0.08730246871709824, 0.9735000133514404, 0.9734999999999999, 0.9735177028189845, '02:21']
+[25, 0.04865187034010887, 0.08884871751070023, 0.9733999967575073, 0.9733999999999998, 0.9733945403694246, '02:22']
+[26, 0.04102321341633797, 0.08796865493059158, 0.9735999703407288, 0.9735999999999999, 0.9735819422713279, '02:22']
+[27, 0.04102342948317528, 0.088204026222229, 0.9732000231742859, 0.9732, 0.9731857725322606, '02:21']
+[28, 0.043056707829236984, 0.0902821272611618, 0.9728999733924866, 0.9728999999999999, 0.9729021419195165, '02:22']
+[29, 0.05107356607913971, 0.08791279792785645, 0.9736999869346619, 0.9737, 0.9737044301754851, '02:21']
+No improvement since epoch 24: early stopping
+
+Tiempo de entrenamiento: 4256.99 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss (valid): 0.0879
+Accuracy (valid): 0.9737
+Recall (valid): 0.9737
+F1-Score (valid): 0.9737
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=EfficientNet_V2_S_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_V2_S_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loss (test): 0.0949
+Accuracy (test): 0.9740
+Recall (test): 0.9740
+F1-Score (test): 0.9740
+---------------------------------------------------------------------------
+Ejecutando: cifar_70pct_effnetv2s_fps
+---------------------------------------------------------------------------
+False
+Número total de imágenes en entrenamiento: 28000
+Número total de imágenes en validación: 10000
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+weights = None
+[0, 1.598688006401062, nan, 0.7060999870300293, 0.7061000000000001, 0.7045299181429743, '02:46']
+[1, 1.0893394947052002, nan, 0.8011999726295471, 0.8011999999999999, 0.8004287676924748, '02:39']
+[2, 0.7450516819953918, nan, 0.8604999780654907, 0.8604999999999998, 0.8600908728194664, '02:39']
+[3, 0.49746373295783997, nan, 0.9041000008583069, 0.9041, 0.9040729910869862, '02:39']
+[4, 0.33982691168785095, nan, 0.9311000108718872, 0.9311, 0.9308889614793128, '02:40']
+No improvement since epoch -1: early stopping
+
+Tiempo de entrenamiento: 805.58 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss (valid): nan
+Accuracy (valid): 0.9311
+Recall (valid): 0.9311
+F1-Score (valid): 0.9309
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=EfficientNet_V2_S_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_V2_S_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loss (test): 1.1609
+Accuracy (test): 0.9327
+Recall (test): 0.9327
+F1-Score (test): 0.9327
+---------------------------------------------------------------------------
+Ejecutando: cifar_80pct_effnetv2s_fps
+---------------------------------------------------------------------------
+False
+Número total de imágenes en entrenamiento: 32000
+Número total de imágenes en validación: 10000
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+weights = None
+[0, 1.5268265008926392, nan, 0.7110999822616577, 0.7111000000000001, 0.7084413316341776, '03:06']
+[1, 1.0782188177108765, nan, 0.8033000230789185, 0.8032999999999999, 0.8022287387205725, '02:59']
+[2, 0.7173929214477539, nan, 0.8629000186920166, 0.8629, 0.8620474860047611, '02:59']
+[3, 0.455530047416687, nan, 0.9057000279426575, 0.9057000000000001, 0.9051030045843476, '02:58']
+[4, 0.31347036361694336, 0.18526171147823334, 0.9394999742507935, 0.9395, 0.9392438819341009, '02:58']
+[5, 0.25165972113609314, nan, 0.9495000243186951, 0.9494999999999999, 0.9492980777777638, '02:59']
+[6, 0.2134590446949005, 0.12577614188194275, 0.9571999907493591, 0.9572, 0.9571095497491002, '03:00']
+[7, 0.17107415199279785, 0.11750300228595734, 0.9613000154495239, 0.9613000000000002, 0.9611946866854485, '02:59']
+[8, 0.1580929160118103, 0.10247097164392471, 0.9664999842643738, 0.9664999999999999, 0.9664309275094537, '02:59']
+[9, 0.12355845421552658, 0.09762774407863617, 0.968999981880188, 0.9690000000000001, 0.9689606710982371, '02:59']
+[10, 0.10640846192836761, 0.09802909940481186, 0.9692000150680542, 0.9692000000000001, 0.9691297521951941, '02:59']
+[11, 0.10217124223709106, 0.09716498106718063, 0.9679999947547913, 0.968, 0.9679327247497899, '02:59']
+[12, 0.10072135180234909, 0.09263067692518234, 0.972100019454956, 0.9721, 0.9720598091318781, '03:00']
+[13, 0.08604907244443893, 0.09225882589817047, 0.9718000292778015, 0.9717999999999998, 0.9717518762597619, '02:59']
+[14, 0.08668922632932663, 0.09446492046117783, 0.9715999960899353, 0.9715999999999999, 0.9715262681176557, '02:58']
+[15, 0.07819648832082748, 0.08935879170894623, 0.972100019454956, 0.9721, 0.9720774023149191, '02:59']
+[16, 0.07344464212656021, 0.08954552561044693, 0.9721999764442444, 0.9722, 0.9721588493907924, '02:58']
+[17, 0.0656573623418808, 0.08819543570280075, 0.9726999998092651, 0.9726999999999999, 0.9726884247480608, '02:58']
+[18, 0.06363172829151154, 0.08802470564842224, 0.9732999801635742, 0.9733, 0.9732604891635391, '02:59']
+[19, 0.0565636120736599, 0.08814407885074615, 0.9735999703407288, 0.9735999999999999, 0.9735542476608023, '02:59']
+[20, 0.05221380665898323, 0.08860784024000168, 0.9729999899864197, 0.9730000000000001, 0.9729602483831415, '02:59']
+[21, 0.047717489302158356, 0.08774357289075851, 0.9750999808311462, 0.9751, 0.9750594870488933, '02:59']
+[22, 0.05281032994389534, 0.08714175969362259, 0.9745000004768372, 0.9745000000000001, 0.9744574316296994, '03:00']
+[23, 0.044895559549331665, 0.08936653286218643, 0.9742000102996826, 0.9742000000000001, 0.9741594348364302, '03:00']
+[24, 0.04208336025476456, 0.08646507561206818, 0.9757000207901001, 0.9757, 0.9756739271780301, '03:00']
+[25, 0.041305091232061386, 0.08711452037096024, 0.9749000072479248, 0.9748999999999999, 0.974862081965903, '03:00']
+[26, 0.04339609667658806, 0.08627073466777802, 0.9750999808311462, 0.9751, 0.9750576663692359, '03:00']
+[27, 0.04044157266616821, 0.08578938990831375, 0.9747999906539917, 0.9747999999999999, 0.9747648139252441, '03:00']
+[28, 0.05136219784617424, 0.08647070080041885, 0.9750000238418579, 0.9749999999999999, 0.9749569212980926, '02:59']
+[29, 0.03903790935873985, 0.08669161051511765, 0.9754999876022339, 0.9755, 0.9754683641774122, '02:59']
+
+Tiempo de entrenamiento: 5392.59 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss (valid): 0.0867
+Accuracy (valid): 0.9755
+Recall (valid): 0.9755
+F1-Score (valid): 0.9755
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=EfficientNet_V2_S_Weights.IMAGENET1K_V1`. You can also use `weights=EfficientNet_V2_S_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loss (test): 0.0824
+Accuracy (test): 0.9776
+Recall (test): 0.9776
+F1-Score (test): 0.9776
+---------------------------------------------------------------------------
+Ejecutando: cifar_90pct_effnetv2s_fps
+---------------------------------------------------------------------------
+False
+Número total de imágenes en entrenamiento: 36000
+Número total de imágenes en validación: 10000
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+weights = None
+[0, 1.4734468460083008, nan, 0.7195000052452087, 0.7195, 0.7173975007208776, '03:26']
+[1, 0.9754116535186768, 0.9996741414070129, 0.8101999759674072, 0.8102, 0.8097553232762392, '03:18']
+[2, 0.6657700538635254, nan, 0.8672000169754028, 0.8671999999999999, 0.8669911074778522, '03:19']
+[3, 0.41464585065841675, nan, 0.9154000282287598, 0.9154, 0.9150021288297421, '03:18']
+[4, 0.2786954939365387, nan, 0.942799985408783, 0.9428000000000001, 0.9427937088320949, '03:18']
+[5, 0.22381819784641266, 0.13689735531806946, 0.9523000121116638, 0.9522999999999999, 0.9522617961056487, '03:18']
+[6, 0.1904769092798233, 0.11342821270227432, 0.9606000185012817, 0.9606, 0.9605384420054739, '03:19']
+[7, 0.14586080610752106, 0.0992342010140419, 0.9656999707221985, 0.9657, 0.9656523471423872, '03:18']
+[8, 0.14713133871555328, 0.09702242910861969, 0.9661999940872192, 0.9662000000000001, 0.9661729650329521, '03:17']
+[9, 0.12805165350437164, 0.09930966794490814, 0.9656000137329102, 0.9655999999999999, 0.9655697083574714, '03:18']
+[10, 0.11154590547084808, 0.0851670503616333, 0.9714000225067139, 0.9714, 0.9713388129551909, '03:17']
+[11, 0.11279944330453873, 0.07991749048233032, 0.9732999801635742, 0.9732999999999998, 0.9732632853829113, '03:17']
+[12, 0.10611827671527863, 0.08344290405511856, 0.972599983215332, 0.9726000000000001, 0.9725992525701009, '03:17']
+[13, 0.0998283103108406, 0.0808136910200119, 0.9735999703407288, 0.9736, 0.9735685634217799, '03:17']
+[14, 0.07648922502994537, 0.07887303829193115, 0.9746999740600586, 0.9747, 0.9746708226232611, '03:17']
+[15, 0.07204177230596542, 0.07962384074926376, 0.9735000133514404, 0.9735000000000001, 0.9734968999049656, '03:17']
+[16, 0.07304952293634415, 0.08188115060329437, 0.9739999771118164, 0.974, 0.9739780852509036, '03:18']
+[17, 0.07128718495368958, 0.07816613465547562, 0.973800003528595, 0.9738, 0.9737751490780978, '03:18']
+[18, 0.059784337878227234, 0.07683044672012329, 0.9761999845504761, 0.9761999999999998, 0.976170672974914, '03:18']
+[19, 0.0560324527323246, 0.07502659410238266, 0.9764000177383423, 0.9763999999999999, 0.9763868463971626, '03:19']
+[20, 0.05701814591884613, 0.07540673017501831, 0.9764000177383423, 0.9764000000000002, 0.9763688460083179, '03:20']
+[21, 0.053321100771427155, 0.07664091885089874, 0.9760000109672546, 0.9760000000000002, 0.9759979577333378, '03:20']
+[22, 0.04940658435225487, 0.07675870507955551, 0.9758999943733215, 0.9759, 0.9758739614233353, '03:21']
+[23, 0.04480878263711929, 0.07328762859106064, 0.9764000177383423, 0.9763999999999999, 0.9763856867583366, '03:20']
+[24, 0.046622518450021744, 0.07251317799091339, 0.9772999882698059, 0.9773, 0.9772945535158062, '03:20']
+[25, 0.04868138208985329, 0.0735434740781784, 0.9771999716758728, 0.9771999999999998, 0.9771973365544678, '03:20']
+[26, 0.044921886175870895, 0.07390237599611282, 0.9765999913215637, 0.9765999999999998, 0.9765974055037747, '03:20']
+[27, 0.03865016624331474, 0.07246183604001999, 0.9772999882698059, 0.9773000000000002, 0.9772921235489445, '03:21']
+[28, 0.03735068812966347, 0.07246478646993637, 0.9775000214576721, 0.9775, 0.9774968929186644, '03:21']
+[29, 0.038550786674022675, 0.0731770247220993, 0.9764000177383423, 0.9763999999999999, 0.9763894690878046, '03:20']
+
+Tiempo de entrenamiento: 5979.70 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss (valid): 0.0732
+Accuracy (valid): 0.9764
+Recall (valid): 0.9764
+F1-Score (valid): 0.9764
+Loss (test): 0.0851
+Accuracy (test): 0.9761
+Recall (test): 0.9761
+F1-Score (test): 0.9761
+mail: cannot send message: Process exited with a non-zero status
