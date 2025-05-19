@@ -1,0 +1,28 @@
+=== Subsets al 10% ===
+[fashion_mnist al 10%] tiempo de creación: 1453.83 s
+[cifar10 al 10%] tiempo de creación: 1151.76 s
+=== Subsets al 20% ===
+[fashion_mnist al 20%] tiempo de creación: 1285.95 s
+[cifar10 al 20%] tiempo de creación: 1207.85 s
+=== Subsets al 30% ===
+[fashion_mnist al 30%] tiempo de creación: 1371.17 s
+[cifar10 al 30%] tiempo de creación: 1304.76 s
+=== Subsets al 40% ===
+[fashion_mnist al 40%] tiempo de creación: 1492.50 s
+[cifar10 al 40%] tiempo de creación: 1388.91 s
+=== Subsets al 50% ===
+[fashion_mnist al 50%] tiempo de creación: 1664.41 s
+[cifar10 al 50%] tiempo de creación: 1605.05 s
+=== Subsets al 60% ===
+[fashion_mnist al 60%] tiempo de creación: 1647.39 s
+[cifar10 al 60%] tiempo de creación: 1504.14 s
+=== Subsets al 70% ===
+[fashion_mnist al 70%] tiempo de creación: 1091.66 s
+[cifar10 al 70%] tiempo de creación: 921.93 s
+=== Subsets al 80% ===
+[fashion_mnist al 80%] tiempo de creación: 1028.15 s
+[cifar10 al 80%] tiempo de creación: 936.72 s
+=== Subsets al 90% ===
+[fashion_mnist al 90%] tiempo de creación: 1068.03 s
+[cifar10 al 90%] tiempo de creación: 955.66 s
+mail: cannot send message: Process exited with a non-zero status
