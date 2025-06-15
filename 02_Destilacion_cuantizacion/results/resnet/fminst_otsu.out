@@ -1,0 +1,268 @@
+---------------------------------------------------------------------------
+--------------------------MODELOS fmnist -----------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Ejecutando: r_fmnist_dist1_otsu_ex1
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 10620
+Número total de imágenes en validación: 12000
+
+Clases: ['Ankle boot', 'Bag', 'Coat', 'Dress', 'Pullover', 'Sandal', 'Shirt', 'Sneaker', 'T-shirt', 'Trouser']
+[0, 1.2704758644104004, 0.865213930606842, 0.7164166569709778, 0.7164166666666667, 0.7104353964563735, '04:43']
+[0, 0.7625313401222229, 0.666772723197937, 0.7699999809265137, 0.7699999999999999, 0.7700082116993577, '01:21']
+[1, 0.4866819381713867, 0.6613811254501343, 0.7864999771118164, 0.7865, 0.7866283193233423, '01:23']
+[2, 0.3693476915359497, 0.6302803754806519, 0.7919999957084656, 0.792, 0.7888343658721599, '01:23']
+[3, 0.24515356123447418, 0.6486557722091675, 0.8029999732971191, 0.8029999999999999, 0.7989604663627017, '01:22']
+[4, 0.21234650909900665, 0.9059675335884094, 0.7806666493415833, 0.7806666666666666, 0.7839630642311824, '01:23']
+[5, 0.2277078777551651, 0.8079081177711487, 0.7869166731834412, 0.7869166666666667, 0.7767562399207549, '01:24']
+[6, 0.19465002417564392, 1.0894489288330078, 0.7476666569709778, 0.7476666666666667, 0.7508636524549807, '01:26']
+[7, 0.1777893304824829, 0.7792249917984009, 0.8045833110809326, 0.8045833333333334, 0.8008391558028881, '01:23']
+No improvement since epoch 2: early stopping
+
+Tiempo de entrenamiento: 952.52 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 0.7792
+Accuracy: 0.8046
+Recall: 0.8046
+F1-Score: 0.8008
+Loss: 3.4964544773101807
+Accuracy: 0.6331129670143127
+Recall (macro): 0.6331799570179234
+F1 Score (macro): 0.6266657325987367
+---------------------------------------------------------------------------
+Ejecutando: r_fmnist_dist1_otsu_ex2
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 10620
+Número total de imágenes en validación: 12000
+
+Clases: ['Ankle boot', 'Bag', 'Coat', 'Dress', 'Pullover', 'Sandal', 'Shirt', 'Sneaker', 'T-shirt', 'Trouser']
+[0, 1.3195619583129883, 0.9359061121940613, 0.6949166655540466, 0.6949166666666666, 0.6864029218176954, '02:42']
+[0, 0.7868204712867737, 0.6488814949989319, 0.7675833106040955, 0.7675833333333333, 0.765765004388925, '01:23']
+[1, 0.5333251953125, 0.6012595891952515, 0.7948333621025085, 0.7948333333333334, 0.7915000313624515, '01:23']
+[2, 0.3740414083003998, 0.6665892004966736, 0.7934166789054871, 0.7934166666666667, 0.7831145485866048, '01:23']
+[3, 0.2676854431629181, 0.630538284778595, 0.7985000014305115, 0.7985, 0.7982148004433189, '01:43']
+[4, 0.20834404230117798, 0.720174252986908, 0.7886666655540466, 0.7886666666666666, 0.7893921327297808, '02:05']
+[5, 0.22226935625076294, 0.7842807769775391, 0.7837499976158142, 0.7837500000000001, 0.7843000808362577, '02:15']
+[6, 0.2020576298236847, 0.9651856422424316, 0.7594166398048401, 0.7594166666666666, 0.7593109683916989, '02:13']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 909.55 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 0.9652
+Accuracy: 0.7594
+Recall: 0.7594
+F1-Score: 0.7593
+Loss: 3.3633081912994385
+Accuracy: 0.5986578464508057
+Recall (macro): 0.5986208638742682
+F1 Score (macro): 0.5886098502683155
+---------------------------------------------------------------------------
+Ejecutando: r_fmnist_dist1_otsu_ex3
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 10620
+Número total de imágenes en validación: 12000
+
+Clases: ['Ankle boot', 'Bag', 'Coat', 'Dress', 'Pullover', 'Sandal', 'Shirt', 'Sneaker', 'T-shirt', 'Trouser']
+[0, 1.2553085088729858, 0.8127490878105164, 0.7204166650772095, 0.7204166666666667, 0.7185169900382157, '04:51']
+[0, 0.7391923069953918, 0.6344677805900574, 0.7769166827201843, 0.7769166666666667, 0.7732034829847644, '02:11']
+[1, 0.48833703994750977, 0.6162068247795105, 0.7915833592414856, 0.7915833333333333, 0.7901905776631435, '02:06']
+[2, 0.34338560700416565, 0.6394755244255066, 0.7959166765213013, 0.7959166666666666, 0.7950654024367508, '02:18']
+[3, 0.25797131657600403, 0.7424913048744202, 0.7839999794960022, 0.784, 0.769728048174371, '02:10']
+[4, 0.21339699625968933, 0.7787631750106812, 0.7925833463668823, 0.7925833333333334, 0.7944590929577892, '02:11']
+[5, 0.22798655927181244, 0.8485096096992493, 0.7851666808128357, 0.7851666666666668, 0.7877567424230039, '02:13']
+[6, 0.21027863025665283, 0.8149850368499756, 0.7919166684150696, 0.7919166666666666, 0.7874156435387949, '02:09']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 1213.56 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 0.8150
+Accuracy: 0.7919
+Recall: 0.7919
+F1-Score: 0.7874
+Loss: 3.561856746673584
+Accuracy: 0.6266025900840759
+Recall (macro): 0.6265445787984407
+F1 Score (macro): 0.6130705236804956
+---------------------------------------------------------------------------
+Ejecutando: r_fmnist_dist5_orsu_ex1
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 9800
+Número total de imágenes en validación: 12000
+
+Clases: ['Ankle boot', 'Bag', 'Coat', 'Dress', 'Pullover', 'Sandal', 'Shirt', 'Sneaker', 'T-shirt', 'Trouser']
+[0, 1.3992180824279785, 0.8052194118499756, 0.715583324432373, 0.7155833333333333, 0.7123546671894452, '04:55']
+[0, 0.8136438727378845, 0.6222896575927734, 0.781166672706604, 0.7811666666666668, 0.7788759256586304, '01:58']
+[1, 0.5647117495536804, 0.6021977663040161, 0.7941666841506958, 0.7941666666666667, 0.7968690157734719, '02:08']
+[2, 0.3997056484222412, 0.6494432091712952, 0.7947499752044678, 0.79475, 0.7978249036383883, '02:07']
+[3, 0.27956411242485046, 0.7370738983154297, 0.7776666879653931, 0.7776666666666667, 0.7815051263329333, '02:05']
+[4, 0.23725947737693787, 0.6646095514297485, 0.8051666617393494, 0.8051666666666666, 0.8056304726852084, '02:07']
+[5, 0.19704654812812805, 0.8545649647712708, 0.781000018119812, 0.7809999999999999, 0.7796863481462937, '02:03']
+[6, 0.20662058889865875, 0.9598343372344971, 0.7593333125114441, 0.7593333333333334, 0.768440956213467, '02:04']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 1172.25 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 0.9598
+Accuracy: 0.7593
+Recall: 0.7593
+F1-Score: 0.7684
+Loss: 3.4777698516845703
+Accuracy: 0.5925480723381042
+Recall (macro): 0.5926929054015326
+F1 Score (macro): 0.5954817804993706
+---------------------------------------------------------------------------
+Ejecutando: r_fmnist_dist5_otsu_ex2
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 9800
+Número total de imágenes en validación: 12000
+
+Clases: ['Ankle boot', 'Bag', 'Coat', 'Dress', 'Pullover', 'Sandal', 'Shirt', 'Sneaker', 'T-shirt', 'Trouser']
+[0, 1.352684736251831, 1.0192056894302368, 0.6893333196640015, 0.6893333333333335, 0.6913082958415866, '04:30']
+[0, 0.8186680674552917, 0.65869140625, 0.7679166793823242, 0.7679166666666667, 0.7641523979237195, '02:09']
+[1, 0.5826975107192993, 0.600483775138855, 0.7879166603088379, 0.7879166666666666, 0.7890220761382473, '02:11']
+[2, 0.4015643000602722, 0.6443796753883362, 0.7885000109672546, 0.7885000000000001, 0.7925641982063346, '02:04']
+[3, 0.27369454503059387, 0.7232826948165894, 0.7912499904632568, 0.7912500000000001, 0.7862737858943101, '02:22']
+[4, 0.25054165720939636, 1.3101913928985596, 0.7204166650772095, 0.7204166666666667, 0.717384766604283, '02:12']
+[5, 0.2125217169523239, 0.7667903900146484, 0.7913333177566528, 0.7913333333333332, 0.7894529853024428, '01:56']
+[6, 0.1960521787405014, 1.0581080913543701, 0.7540833353996277, 0.7540833333333332, 0.7663187953879602, '01:57']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 1166.07 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 1.0581
+Accuracy: 0.7541
+Recall: 0.7541
+F1-Score: 0.7663
+Loss: 3.2648518085479736
+Accuracy: 0.6050680875778198
+Recall (macro): 0.6048754710745181
+F1 Score (macro): 0.5976982083556901
+---------------------------------------------------------------------------
+Ejecutando: r_fmnist_dist5_otsu_ex3
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 9800
+Número total de imágenes en validación: 12000
+
+Clases: ['Ankle boot', 'Bag', 'Coat', 'Dress', 'Pullover', 'Sandal', 'Shirt', 'Sneaker', 'T-shirt', 'Trouser']
+[0, 1.4326870441436768, 0.9177916646003723, 0.6797500252723694, 0.6797500000000001, 0.6779442129422842, '05:23']
+[0, 0.8469401597976685, 0.6719198822975159, 0.7621666789054871, 0.7621666666666667, 0.7590327605932428, '02:10']
+[1, 0.5700535774230957, 0.6239019632339478, 0.7863333225250244, 0.7863333333333333, 0.7831531922971842, '02:06']
+[2, 0.4031864106655121, 0.7298856377601624, 0.7746666669845581, 0.7746666666666667, 0.7721513672370203, '01:59']
+[3, 0.2954471707344055, 0.7322840094566345, 0.7733333110809326, 0.7733333333333333, 0.7742521610134286, '01:56']
+[4, 0.2335107922554016, 0.8388983607292175, 0.7670000195503235, 0.767, 0.769147197385623, '02:10']
+[5, 0.21294623613357544, 0.8479077816009521, 0.7807499766349792, 0.7807499999999999, 0.7826119470042241, '02:07']
+[6, 0.21221424639225006, 0.8702408671379089, 0.7832499742507935, 0.78325, 0.7805836494897566, '02:06']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 1199.90 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 0.8702
+Accuracy: 0.7832
+Recall: 0.7833
+F1-Score: 0.7806
+Loss: 3.2639689445495605
+Accuracy: 0.5982571840286255
+Recall (macro): 0.5982486099108186
+F1 Score (macro): 0.603205553392175
+---------------------------------------------------------------------------
+Ejecutando: r_fmnist_dist01_otsu_ex1
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 22400
+Número total de imágenes en validación: 12000
+
+Clases: ['Ankle boot', 'Bag', 'Coat', 'Dress', 'Pullover', 'Sandal', 'Shirt', 'Sneaker', 'T-shirt', 'Trouser']
+[0, 0.8881961703300476, 0.8162028193473816, 0.7222499847412109, 0.72225, 0.7184397456894589, '07:37']
+[0, 0.49448129534721375, 0.6610732078552246, 0.7806666493415833, 0.7806666666666667, 0.773065117757428, '03:02']
+[1, 0.3696432113647461, 0.5609265565872192, 0.8085833191871643, 0.8085833333333333, 0.8071003585184382, '03:08']
+[2, 0.2794938385486603, 0.5914087891578674, 0.8080833554267883, 0.8080833333333333, 0.8072381586207026, '03:23']
+[3, 0.20597435534000397, 0.6743667125701904, 0.8079166412353516, 0.8079166666666667, 0.8017326826471773, '03:21']
+[4, 0.20152997970581055, 0.7491264939308167, 0.7918333411216736, 0.7918333333333334, 0.7914504045223849, '03:07']
+[5, 0.19141130149364471, 0.6768497228622437, 0.815750002861023, 0.8157499999999999, 0.8164563249381491, '03:11']
+[6, 0.16490048170089722, 0.9900144934654236, 0.7705000042915344, 0.7705, 0.7620521248353723, '03:14']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 1805.94 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 0.9900
+Accuracy: 0.7705
+Recall: 0.7705
+F1-Score: 0.7621
+Loss: 3.36594295501709
+Accuracy: 0.5959535241127014
+Recall (macro): 0.5957448602930266
+F1 Score (macro): 0.5895670712232293
+---------------------------------------------------------------------------
+Ejecutando: r_fmnist_dist01_otsu_ex2
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 22400
+Número total de imágenes en validación: 12000
+
+Clases: ['Ankle boot', 'Bag', 'Coat', 'Dress', 'Pullover', 'Sandal', 'Shirt', 'Sneaker', 'T-shirt', 'Trouser']
+[0, 0.8168673515319824, 0.7793921828269958, 0.7297499775886536, 0.72975, 0.7319227825044924, '04:44']
+[0, 0.528396487236023, 0.5944220423698425, 0.7976666688919067, 0.7976666666666667, 0.7929204048891011, '02:56']
+[1, 0.3697250485420227, 0.5670173168182373, 0.8141666650772095, 0.8141666666666666, 0.8122047990811516, '02:52']
+[2, 0.2676904499530792, 0.6371414661407471, 0.7985833287239075, 0.7985833333333334, 0.7955953316892543, '02:47']
+[3, 0.20875181257724762, 0.698434591293335, 0.8040000200271606, 0.8039999999999999, 0.7969501502556511, '02:51']
+[4, 0.19903871417045593, 0.9982680678367615, 0.7538333535194397, 0.7538333333333334, 0.7576999815373398, '02:51']
+[5, 0.18423740565776825, 0.9354624152183533, 0.7830833196640015, 0.7830833333333335, 0.7812583469051148, '02:49']
+[6, 0.18584242463111877, 0.7534942030906677, 0.8044999837875366, 0.8045, 0.8036479888308392, '02:42']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 1477.00 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 0.7535
+Accuracy: 0.8045
+Recall: 0.8045
+F1-Score: 0.8036
+Loss: 3.523874044418335
+Accuracy: 0.6323117017745972
+Recall (macro): 0.6319250409148739
+F1 Score (macro): 0.6248020354084756
+---------------------------------------------------------------------------
+Ejecutando: r_fmnist_dist01_otsu_ex3
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 22400
+Número total de imágenes en validación: 12000
+
+Clases: ['Ankle boot', 'Bag', 'Coat', 'Dress', 'Pullover', 'Sandal', 'Shirt', 'Sneaker', 'T-shirt', 'Trouser']
+[0, 0.8882678151130676, 0.9723352789878845, 0.6960833072662354, 0.6960833333333334, 0.6921431016188329, '04:44']
+[0, 0.534277617931366, 0.5823678970336914, 0.7951666712760925, 0.7951666666666667, 0.7935021263608678, '02:45']
+[1, 0.35087260603904724, 0.5936756134033203, 0.8021666407585144, 0.8021666666666667, 0.8002803423165566, '02:46']
+[2, 0.2547748386859894, 0.6073566675186157, 0.8087499737739563, 0.8087500000000001, 0.8051092892253499, '02:56']
+[3, 0.23392684757709503, 0.6263854503631592, 0.8195000290870667, 0.8195, 0.8169592680862008, '03:11']
+[4, 0.19184280931949615, 0.6564211249351501, 0.8138333559036255, 0.8138333333333334, 0.8117438381218978, '02:58']
+[5, 0.20520339906215668, 0.7095696330070496, 0.8105000257492065, 0.8105, 0.8087469002782104, '02:59']
+No improvement since epoch 0: early stopping
+
+Tiempo de entrenamiento: 1344.19 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 0.7096
+Accuracy: 0.8105
+Recall: 0.8105
+F1-Score: 0.8087
+Loss: 3.267756223678589
+Accuracy: 0.629807710647583
+Recall (macro): 0.6298331433644083
+F1 Score (macro): 0.6290965510743203
+---------------------------------------------------------------------------
+--------------------------MODELOS BASE-----------------------------
+---------------------------------------------------------------------------
+mail: cannot send message: Process exited with a non-zero status

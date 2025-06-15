@@ -1,0 +1,11 @@
+=== Subsets al 1% ===
+[cifar10 al 1%] tiempo de creación: 604.19 s
+=== Subsets al 3% ===
+[cifar10 al 3%] tiempo de creación: 572.95 s
+=== Subsets al 5% ===
+[cifar10 al 5%] tiempo de creación: 563.02 s
+=== Subsets al 7% ===
+[cifar10 al 7%] tiempo de creación: 561.05 s
+=== Subsets al 9% ===
+[cifar10 al 9%] tiempo de creación: 562.23 s
+mail: cannot send message: Process exited with a non-zero status

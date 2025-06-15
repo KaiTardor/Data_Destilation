@@ -1,0 +1,194 @@
+----------------------------------DIS 001---------------------------------------
+Clase 6: 4735 train, 1183 valid.
+Clase 0: 4739 train, 1184 valid.
+Clase 3: 4905 train, 1226 valid.
+Clase 5: 4337 train, 1084 valid.
+Clase 1: 5394 train, 1348 valid.
+Clase 2: 4767 train, 1191 valid.
+Clase 4: 4674 train, 1168 valid.
+Clase 9: 4760 train, 1189 valid.
+Clase 7: 5012 train, 1253 valid.
+Clase 8: 4681 train, 1170 valid.
+Clase 6: 4735 train, 1183 valid.
+Clase 0: 4739 train, 1184 valid.
+Clase 3: 4905 train, 1226 valid.
+Clase 5: 4337 train, 1084 valid.
+Clase 1: 5394 train, 1348 valid.
+Clase 2: 4767 train, 1191 valid.
+Clase 4: 4674 train, 1168 valid.
+Clase 9: 4760 train, 1189 valid.
+Clase 7: 5012 train, 1253 valid.
+Clase 8: 4681 train, 1170 valid.
+
+-------Tiempo mnist: 1965.61 segundos
+Clase Ankle boot: 4800 train, 1200 valid.
+Clase T-shirt: 4800 train, 1200 valid.
+Clase Dress: 4800 train, 1200 valid.
+Clase Pullover: 4800 train, 1200 valid.
+Clase Sneaker: 4800 train, 1200 valid.
+Clase Sandal: 4800 train, 1200 valid.
+Clase Trouser: 4800 train, 1200 valid.
+Clase Shirt: 4800 train, 1200 valid.
+Clase Coat: 4800 train, 1200 valid.
+Clase Bag: 4800 train, 1200 valid.
+Clase Ankle boot: 4800 train, 1200 valid.
+Clase T-shirt: 4800 train, 1200 valid.
+Clase Dress: 4800 train, 1200 valid.
+Clase Pullover: 4800 train, 1200 valid.
+Clase Sneaker: 4800 train, 1200 valid.
+Clase Sandal: 4800 train, 1200 valid.
+Clase Trouser: 4800 train, 1200 valid.
+Clase Shirt: 4800 train, 1200 valid.
+Clase Coat: 4800 train, 1200 valid.
+Clase Bag: 4800 train, 1200 valid.
+
+--------Tiempo fmnist: 2114.98 segundos
+Clase frog: 4000 train, 1000 valid.
+Clase dog: 4000 train, 1000 valid.
+Clase truck: 4000 train, 1000 valid.
+Clase horse: 4000 train, 1000 valid.
+Clase automobile: 4000 train, 1000 valid.
+Clase cat: 4000 train, 1000 valid.
+Clase deer: 4000 train, 1000 valid.
+Clase ship: 4000 train, 1000 valid.
+Clase airplane: 4000 train, 1000 valid.
+Clase bird: 4000 train, 1000 valid.
+Clase frog: 4000 train, 1000 valid.
+Clase dog: 4000 train, 1000 valid.
+Clase truck: 4000 train, 1000 valid.
+Clase horse: 4000 train, 1000 valid.
+Clase automobile: 4000 train, 1000 valid.
+Clase cat: 4000 train, 1000 valid.
+Clase deer: 4000 train, 1000 valid.
+Clase ship: 4000 train, 1000 valid.
+Clase airplane: 4000 train, 1000 valid.
+Clase bird: 4000 train, 1000 valid.
+
+-----Tiempo cifar: 1613.25 segundos
+----------------------------------DIS 005---------------------------------------
+Clase 6: 4735 train, 1183 valid.
+Clase 0: 4739 train, 1184 valid.
+Clase 3: 4905 train, 1226 valid.
+Clase 5: 4337 train, 1084 valid.
+Clase 1: 5394 train, 1348 valid.
+Clase 2: 4767 train, 1191 valid.
+Clase 4: 4674 train, 1168 valid.
+Clase 9: 4760 train, 1189 valid.
+Clase 7: 5012 train, 1253 valid.
+Clase 8: 4681 train, 1170 valid.
+
+-----Tiempo mnist: 792.57 segundos
+Clase 6: 4735 train, 1183 valid.
+Clase 0: 4739 train, 1184 valid.
+Clase 3: 4905 train, 1226 valid.
+Clase 5: 4337 train, 1084 valid.
+Clase 1: 5394 train, 1348 valid.
+Clase 2: 4767 train, 1191 valid.
+Clase 4: 4674 train, 1168 valid.
+Clase 9: 4760 train, 1189 valid.
+Clase 7: 5012 train, 1253 valid.
+Clase 8: 4681 train, 1170 valid.
+Clase Ankle boot: 4800 train, 1200 valid.
+Clase T-shirt: 4800 train, 1200 valid.
+Clase Dress: 4800 train, 1200 valid.
+Clase Pullover: 4800 train, 1200 valid.
+Clase Sneaker: 4800 train, 1200 valid.
+Clase Sandal: 4800 train, 1200 valid.
+Clase Trouser: 4800 train, 1200 valid.
+Clase Shirt: 4800 train, 1200 valid.
+Clase Coat: 4800 train, 1200 valid.
+Clase Bag: 4800 train, 1200 valid.
+Clase Ankle boot: 4800 train, 1200 valid.
+Clase T-shirt: 4800 train, 1200 valid.
+Clase Dress: 4800 train, 1200 valid.
+Clase Pullover: 4800 train, 1200 valid.
+Clase Sneaker: 4800 train, 1200 valid.
+Clase Sandal: 4800 train, 1200 valid.
+Clase Trouser: 4800 train, 1200 valid.
+Clase Shirt: 4800 train, 1200 valid.
+Clase Coat: 4800 train, 1200 valid.
+Clase Bag: 4800 train, 1200 valid.
+Clase frog: 4000 train, 1000 valid.
+Clase dog: 4000 train, 1000 valid.
+Clase truck: 4000 train, 1000 valid.
+Clase horse: 4000 train, 1000 valid.
+Clase automobile: 4000 train, 1000 valid.
+Clase cat: 4000 train, 1000 valid.
+Clase deer: 4000 train, 1000 valid.
+Clase ship: 4000 train, 1000 valid.
+Clase airplane: 4000 train, 1000 valid.
+Clase bird: 4000 train, 1000 valid.
+Clase frog: 4000 train, 1000 valid.
+Clase dog: 4000 train, 1000 valid.
+Clase truck: 4000 train, 1000 valid.
+Clase horse: 4000 train, 1000 valid.
+Clase automobile: 4000 train, 1000 valid.
+Clase cat: 4000 train, 1000 valid.
+Clase deer: 4000 train, 1000 valid.
+Clase ship: 4000 train, 1000 valid.
+Clase airplane: 4000 train, 1000 valid.
+Clase bird: 4000 train, 1000 valid.
+----------------------------------DIS 0001---------------------------------------
+Clase 6: 4735 train, 1183 valid.
+Clase 0: 4739 train, 1184 valid.
+Clase 3: 4905 train, 1226 valid.
+Clase 5: 4337 train, 1084 valid.
+Clase 1: 5394 train, 1348 valid.
+Clase 2: 4767 train, 1191 valid.
+Clase 4: 4674 train, 1168 valid.
+Clase 9: 4760 train, 1189 valid.
+Clase 7: 5012 train, 1253 valid.
+Clase 8: 4681 train, 1170 valid.
+
+-----Tiempo mnist: 13294.52 segundos
+Clase 6: 4735 train, 1183 valid.
+Clase 0: 4739 train, 1184 valid.
+Clase 3: 4905 train, 1226 valid.
+Clase 5: 4337 train, 1084 valid.
+Clase 1: 5394 train, 1348 valid.
+Clase 2: 4767 train, 1191 valid.
+Clase 4: 4674 train, 1168 valid.
+Clase 9: 4760 train, 1189 valid.
+Clase 7: 5012 train, 1253 valid.
+Clase 8: 4681 train, 1170 valid.
+Clase Ankle boot: 4800 train, 1200 valid.
+Clase T-shirt: 4800 train, 1200 valid.
+Clase Dress: 4800 train, 1200 valid.
+Clase Pullover: 4800 train, 1200 valid.
+Clase Sneaker: 4800 train, 1200 valid.
+Clase Sandal: 4800 train, 1200 valid.
+Clase Trouser: 4800 train, 1200 valid.
+Clase Shirt: 4800 train, 1200 valid.
+Clase Coat: 4800 train, 1200 valid.
+Clase Bag: 4800 train, 1200 valid.
+Clase Ankle boot: 4800 train, 1200 valid.
+Clase T-shirt: 4800 train, 1200 valid.
+Clase Dress: 4800 train, 1200 valid.
+Clase Pullover: 4800 train, 1200 valid.
+Clase Sneaker: 4800 train, 1200 valid.
+Clase Sandal: 4800 train, 1200 valid.
+Clase Trouser: 4800 train, 1200 valid.
+Clase Shirt: 4800 train, 1200 valid.
+Clase Coat: 4800 train, 1200 valid.
+Clase Bag: 4800 train, 1200 valid.
+Clase frog: 4000 train, 1000 valid.
+Clase dog: 4000 train, 1000 valid.
+Clase truck: 4000 train, 1000 valid.
+Clase horse: 4000 train, 1000 valid.
+Clase automobile: 4000 train, 1000 valid.
+Clase cat: 4000 train, 1000 valid.
+Clase deer: 4000 train, 1000 valid.
+Clase ship: 4000 train, 1000 valid.
+Clase airplane: 4000 train, 1000 valid.
+Clase bird: 4000 train, 1000 valid.
+Clase frog: 4000 train, 1000 valid.
+Clase dog: 4000 train, 1000 valid.
+Clase truck: 4000 train, 1000 valid.
+Clase horse: 4000 train, 1000 valid.
+Clase automobile: 4000 train, 1000 valid.
+Clase cat: 4000 train, 1000 valid.
+Clase deer: 4000 train, 1000 valid.
+Clase ship: 4000 train, 1000 valid.
+Clase airplane: 4000 train, 1000 valid.
+Clase bird: 4000 train, 1000 valid.
+mail: cannot send message: Process exited with a non-zero status

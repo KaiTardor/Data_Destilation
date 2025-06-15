@@ -1,0 +1,266 @@
+---------------------------------------------------------------------------
+--------------------------MODELOS cifar -----------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist1_otsu_ex1
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 9000
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.7839643955230713, 2.157109260559082, 0.24889999628067017, 0.24890000000000004, 0.24302803950753268, '01:58']
+[0, 2.196420907974243, 2.0160634517669678, 0.2896000146865845, 0.28959999999999997, 0.27944773695036806, '01:47']
+[1, 1.8774999380111694, 1.9953604936599731, 0.30219998955726624, 0.30219999999999997, 0.297589563055315, '01:57']
+[2, 1.525729775428772, 2.1009647846221924, 0.301800012588501, 0.3018, 0.29338648021797764, '01:48']
+[3, 1.126391053199768, 2.4952430725097656, 0.273499995470047, 0.2735, 0.2684967908638072, '01:48']
+[4, 0.7606266736984253, 2.7484169006347656, 0.25369998812675476, 0.2536999999999999, 0.24762675566667744, '01:48']
+[5, 0.511978805065155, 2.7629237174987793, 0.28220000863075256, 0.2822, 0.27538363839289876, '01:48']
+[6, 0.378401517868042, 3.7165238857269287, 0.2759000062942505, 0.27590000000000003, 0.24202781588362784, '01:51']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 889.55 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 3.7165
+Accuracy: 0.2759
+Recall: 0.2759
+F1-Score: 0.2420
+Loss: 3.712022066116333
+Accuracy: 0.28004807233810425
+Recall (macro): 0.2800547889819416
+F1 Score (macro): 0.24749124142067264
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist1_otsu_ex2
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 9000
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.7775886058807373, 2.206291913986206, 0.24009999632835388, 0.24009999999999998, 0.230157081001368, '01:45']
+[0, 2.2243072986602783, 1.99507474899292, 0.30079999566078186, 0.30079999999999996, 0.29753383270411327, '01:45']
+[1, 1.9247770309448242, 2.002631187438965, 0.3142000138759613, 0.3142, 0.3096592692586764, '01:50']
+[2, 1.6077216863632202, 2.0256752967834473, 0.3160000145435333, 0.316, 0.31030518883907626, '01:45']
+[3, 1.2607568502426147, 2.2106475830078125, 0.2912999987602234, 0.2913, 0.2880348691884065, '01:48']
+[4, 0.8824547529220581, 2.3602733612060547, 0.29919999837875366, 0.2992, 0.2913692086960113, '01:49']
+[5, 0.6286895871162415, 2.8695099353790283, 0.2791999876499176, 0.2792, 0.2649754233493086, '01:46']
+No improvement since epoch 0: early stopping
+
+Tiempo de entrenamiento: 750.95 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 2.8695
+Accuracy: 0.2792
+Recall: 0.2792
+F1-Score: 0.2650
+Loss: 2.862962007522583
+Accuracy: 0.27704328298568726
+Recall (macro): 0.2770500294326022
+F1 Score (macro): 0.2623132423817752
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist1_otsu_ex3
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 9000
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.8099119663238525, 2.1613686084747314, 0.2612000107765198, 0.2612, 0.2573594743429676, '01:37']
+[0, 2.2007100582122803, 2.0290164947509766, 0.29120001196861267, 0.2912, 0.28792297521569193, '01:44']
+[1, 1.8615639209747314, 1.994705319404602, 0.3010999858379364, 0.3011, 0.2996708022870007, '01:37']
+[2, 1.5496712923049927, 2.0396568775177, 0.31369999051094055, 0.3137, 0.3084539261899729, '01:46']
+[3, 1.194833517074585, 2.2590274810791016, 0.298799991607666, 0.29880000000000007, 0.2831564574122799, '01:44']
+[4, 0.7962774634361267, 2.3842642307281494, 0.28780001401901245, 0.28779999999999994, 0.2777866156192621, '01:41']
+[5, 0.5495656132698059, 2.8947582244873047, 0.29190000891685486, 0.29189999999999994, 0.27935969914289405, '01:44']
+[6, 0.3767029047012329, 3.305516004562378, 0.29679998755455017, 0.2968, 0.27349897125785827, '01:43']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 819.38 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 3.3055
+Accuracy: 0.2968
+Recall: 0.2968
+F1-Score: 0.2735
+Loss: 3.3466827869415283
+Accuracy: 0.29547277092933655
+Recall (macro): 0.29535268418017957
+F1 Score (macro): 0.27162725628870643
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist5_otsu_ex1
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 8200
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.915989875793457, 2.172076940536499, 0.24809999763965607, 0.24810000000000004, 0.23204542519973712, '01:31']
+[0, 2.3214848041534424, 1.993971347808838, 0.2919999957084656, 0.292, 0.2871727779741672, '01:33']
+[1, 1.9539786577224731, 1.9915257692337036, 0.3012000024318695, 0.30119999999999997, 0.291394068921185, '01:31']
+[2, 1.6270644664764404, 2.0667989253997803, 0.3061999976634979, 0.3062, 0.29867085538496596, '01:28']
+[3, 1.2102148532867432, 2.309602975845337, 0.25780001282691956, 0.25780000000000003, 0.2535901716307108, '01:31']
+[4, 0.8353479504585266, 2.4844512939453125, 0.29420000314712524, 0.29419999999999996, 0.28695132729484335, '01:29']
+[5, 0.5461689829826355, 2.8897581100463867, 0.25519999861717224, 0.2552, 0.25065414153255894, '01:31']
+[6, 0.40127721428871155, 3.022067070007324, 0.27889999747276306, 0.2789, 0.26153142753260594, '01:30']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 727.94 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 3.0221
+Accuracy: 0.2789
+Recall: 0.2789
+F1-Score: 0.2615
+Loss: 3.019843578338623
+Accuracy: 0.28044870495796204
+Recall (macro): 0.28040338328913894
+F1 Score (macro): 0.2603003293246975
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist5_otsu_ex2
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 8200
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.922415256500244, 2.1591219902038574, 0.2442999929189682, 0.24430000000000002, 0.23936633958593215, '01:41']
+[0, 2.3352367877960205, 2.011838436126709, 0.29589998722076416, 0.2959, 0.2886240344324117, '01:36']
+[1, 1.953342080116272, 1.9802978038787842, 0.3093999922275543, 0.3094, 0.30753433635216665, '01:33']
+[2, 1.6174688339233398, 2.083306074142456, 0.30790001153945923, 0.30789999999999995, 0.2978383158371338, '01:32']
+[3, 1.2226091623306274, 2.1408591270446777, 0.30379998683929443, 0.3038, 0.2988957151973035, '01:35']
+[4, 0.8757198452949524, 2.267782688140869, 0.3021000027656555, 0.3020999999999999, 0.30151898356463097, '01:34']
+[5, 0.5833142995834351, 2.548640727996826, 0.2915000021457672, 0.29150000000000004, 0.29206648989736816, '01:26']
+[6, 0.46324095129966736, 3.643389940261841, 0.26750001311302185, 0.26749999999999996, 0.2471691914659294, '01:29']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 748.86 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 3.6434
+Accuracy: 0.2675
+Recall: 0.2675
+F1-Score: 0.2472
+Loss: 3.6471564769744873
+Accuracy: 0.26923078298568726
+Recall (macro): 0.26914628397601004
+F1 Score (macro): 0.24869079352819204
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist5_otsu_ex3
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 8200
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.901580810546875, 2.257335662841797, 0.2378000020980835, 0.2378, 0.23181064543715327, '01:36']
+[0, 2.248077154159546, 2.004824638366699, 0.2897999882698059, 0.28979999999999995, 0.28447285850458115, '01:34']
+[1, 1.935875654220581, 1.9638766050338745, 0.31279999017715454, 0.3127999999999999, 0.3079170740690825, '01:33']
+[2, 1.6042934656143188, 2.0255143642425537, 0.31940001249313354, 0.3194, 0.3105075112174058, '01:36']
+[3, 1.2646987438201904, 2.1803600788116455, 0.31299999356269836, 0.313, 0.2987897633736126, '01:32']
+[4, 0.8804213404655457, 2.4620912075042725, 0.30730000138282776, 0.3073, 0.2918451383039272, '01:36']
+[5, 0.5801668167114258, 2.702754497528076, 0.28349998593330383, 0.28350000000000003, 0.2729577357565652, '01:31']
+[6, 0.41336187720298767, 4.055775165557861, 0.25189998745918274, 0.25189999999999996, 0.2253885969229497, '01:31']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 752.28 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 4.0558
+Accuracy: 0.2519
+Recall: 0.2519
+F1-Score: 0.2254
+Loss: 4.063538551330566
+Accuracy: 0.2623197138309479
+Recall (macro): 0.2621622113963304
+F1 Score (macro): 0.23549443546476811
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist01_otsu_ex1
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 18670
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.4277613162994385, 2.117706537246704, 0.27730000019073486, 0.2773, 0.2695602241416632, '02:26']
+[0, 1.9462634325027466, 1.933081030845642, 0.322299987077713, 0.32230000000000003, 0.31261169392595195, '02:27']
+[1, 1.6709498167037964, 1.8930721282958984, 0.34220001101493835, 0.34219999999999995, 0.3331834555824018, '02:17']
+[2, 1.3505842685699463, 1.9793968200683594, 0.3467999994754791, 0.3468, 0.3358095831614904, '02:26']
+[3, 1.061569333076477, 2.15753436088562, 0.3174999952316284, 0.3175, 0.3143918739644926, '02:35']
+[4, 0.7623914480209351, 2.475111246109009, 0.3301999866962433, 0.3302, 0.3223634034890493, '02:37']
+[5, 0.5432243943214417, 2.8109538555145264, 0.3361999988555908, 0.3362, 0.3230590839217302, '02:36']
+[6, 0.46261194348335266, 3.3019020557403564, 0.29980000853538513, 0.29979999999999996, 0.2829925738200099, '02:28']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 1195.75 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 3.3019
+Accuracy: 0.2998
+Recall: 0.2998
+F1-Score: 0.2830
+Loss: 3.315561532974243
+Accuracy: 0.2955729067325592
+Recall (macro): 0.2956367966278249
+F1 Score (macro): 0.27940584981694006
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist01_otsu_ex2
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 18670
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.4378983974456787, 2.083137035369873, 0.25519999861717224, 0.2552, 0.252170268693421, '04:51']
+[0, 2.0057260990142822, 1.9138964414596558, 0.32420000433921814, 0.3242, 0.3152345056117797, '02:32']
+[1, 1.6676936149597168, 1.9439033269882202, 0.3203999996185303, 0.32039999999999996, 0.316359830244325, '02:27']
+[2, 1.3739042282104492, 1.9384043216705322, 0.35260000824928284, 0.35259999999999997, 0.3468627286143112, '02:26']
+[3, 1.0350574254989624, 2.1652162075042725, 0.33180001378059387, 0.33180000000000004, 0.31928061418359266, '02:22']
+[4, 0.6875324845314026, 3.1049933433532715, 0.2989000082015991, 0.2989, 0.27726815652065834, '02:22']
+[5, 0.5172610878944397, 3.0935773849487305, 0.2973000109195709, 0.2973, 0.2876086667721774, '02:28']
+No improvement since epoch 0: early stopping
+
+Tiempo de entrenamiento: 1171.19 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 3.0936
+Accuracy: 0.2973
+Recall: 0.2973
+F1-Score: 0.2876
+Loss: 3.1949551105499268
+Accuracy: 0.2864583432674408
+Recall (macro): 0.2864657938455356
+F1 Score (macro): 0.2747722470687111
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist01_otsu_ex3
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 18670
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.4748408794403076, 2.0861270427703857, 0.2736999988555908, 0.27369999999999994, 0.26291302583816334, '04:54']
+[0, 1.9840675592422485, 1.9261611700057983, 0.320499986410141, 0.3205, 0.3124248718412206, '02:23']
+[1, 1.6884722709655762, 1.905148983001709, 0.3321000039577484, 0.33209999999999995, 0.32955152897074724, '02:30']
+[2, 1.3891891241073608, 1.9583269357681274, 0.3359000086784363, 0.3359, 0.33269877938589293, '02:34']
+[3, 1.0658156871795654, 2.191155195236206, 0.33570000529289246, 0.3357, 0.3291186470068508, '02:29']
+[4, 0.7356008887290955, 2.4555070400238037, 0.3400999903678894, 0.34009999999999996, 0.330778567167024, '02:30']
+[5, 0.5799343585968018, 2.9543778896331787, 0.30149999260902405, 0.30150000000000005, 0.29251908036675467, '02:20']
+[6, 0.47122275829315186, 3.0369157791137695, 0.32010000944137573, 0.32010000000000005, 0.3091667270341952, '02:26']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 1329.74 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 3.0369
+Accuracy: 0.3201
+Recall: 0.3201
+F1-Score: 0.3092
+Loss: 3.023930311203003
+Accuracy: 0.32151442766189575
+Recall (macro): 0.3215370122132176
+F1 Score (macro): 0.3096038673928878
+---------------------------------------------------------------------------
+--------------------------MODELOS BASE-----------------------------
+---------------------------------------------------------------------------
+mail: cannot send message: Process exited with a non-zero status

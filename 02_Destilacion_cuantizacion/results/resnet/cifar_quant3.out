@@ -1,0 +1,291 @@
+---------------------------------------------------------------------------
+--------------------------MODELOS cifar -----------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist1_quant3_ex1
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 9000
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.6059117317199707, 2.0985841751098633, 0.28049999475479126, 0.2805, 0.27233376997908054, '01:19']
+[0, 2.165783405303955, 1.927722454071045, 0.3190000057220459, 0.31900000000000006, 0.31106995131508075, '01:20']
+[1, 1.996069073677063, 1.8939114809036255, 0.3424000144004822, 0.3424, 0.3369588694706499, '01:21']
+[2, 1.8302807807922363, 1.8917114734649658, 0.3411000072956085, 0.34109999999999996, 0.3309151781174963, '01:21']
+[3, 1.7010966539382935, 1.90299654006958, 0.3517000079154968, 0.3517, 0.3411893739025786, '01:20']
+[4, 1.5796507596969604, 1.8880507946014404, 0.3458000123500824, 0.3458, 0.3419343707181261, '01:20']
+[5, 1.3767977952957153, 2.0255913734436035, 0.3395000100135803, 0.3395, 0.32466311676867055, '01:20']
+[6, 1.169845700263977, 2.292240619659424, 0.3562000095844269, 0.35619999999999996, 0.34106363150367847, '01:21']
+[7, 0.9893204569816589, 2.287580728530884, 0.3598000109195709, 0.3598, 0.34218361650429874, '01:21']
+[8, 0.7967122793197632, 2.257200241088867, 0.3582000136375427, 0.35819999999999996, 0.35043824152376224, '01:20']
+[9, 0.625058650970459, 2.678645610809326, 0.3190000057220459, 0.319, 0.3065896833625258, '01:21']
+No improvement since epoch 4: early stopping
+
+Tiempo de entrenamiento: 889.66 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 2.6786
+Accuracy: 0.3190
+Recall: 0.3190
+F1-Score: 0.3066
+Loss: 2.7001712322235107
+Accuracy: 0.3117988705635071
+Recall (macro): 0.3117395400946642
+F1 Score (macro): 0.3014806714275672
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist1_quant3_ex2
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 9000
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.688222885131836, 2.061893939971924, 0.27079999446868896, 0.2708, 0.2670089176795368, '01:20']
+[0, 2.188643217086792, 1.8845833539962769, 0.32820001244544983, 0.3282, 0.3216346895084251, '01:22']
+[1, 1.9948123693466187, 1.856757402420044, 0.3400000035762787, 0.33999999999999997, 0.33273934539801986, '01:20']
+[2, 1.8134888410568237, 1.8527703285217285, 0.34709998965263367, 0.34709999999999996, 0.3404764937684336, '01:21']
+[3, 1.6620584726333618, 1.829392433166504, 0.3626999855041504, 0.3627, 0.35536031790241657, '01:21']
+[4, 1.5607539415359497, 2.044212579727173, 0.35670000314712524, 0.3567, 0.3476326212888269, '01:21']
+[5, 1.3663206100463867, 1.9664835929870605, 0.3564999997615814, 0.3565, 0.35516851361620205, '01:21']
+[6, 1.150400161743164, 2.0788400173187256, 0.3580000102519989, 0.358, 0.35042308457979965, '01:21']
+[7, 0.9092594385147095, 2.2211241722106934, 0.34950000047683716, 0.34950000000000003, 0.33408604301991784, '01:20']
+[8, 0.7699429392814636, 2.2343966960906982, 0.3582000136375427, 0.35819999999999996, 0.35545260059926026, '01:21']
+No improvement since epoch 3: early stopping
+
+Tiempo de entrenamiento: 811.97 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 2.2344
+Accuracy: 0.3582
+Recall: 0.3582
+F1-Score: 0.3555
+Loss: 2.2172975540161133
+Accuracy: 0.35837340354919434
+Recall (macro): 0.35832709286052744
+F1 Score (macro): 0.3561085354989055
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist1_quant3_ex3
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 9000
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.633326292037964, 2.119392156600952, 0.2736999988555908, 0.2737, 0.26519972741316755, '01:34']
+[0, 2.1767070293426514, 1.9130806922912598, 0.3156999945640564, 0.3157, 0.3117672531420537, '01:33']
+[1, 2.0075008869171143, 1.8871898651123047, 0.3319000005722046, 0.3319, 0.3205339429643113, '01:30']
+[2, 1.8458188772201538, 1.8503782749176025, 0.3528999984264374, 0.35290000000000005, 0.34650277599134544, '01:33']
+[3, 1.7236621379852295, 1.8259384632110596, 0.3560999929904938, 0.35609999999999997, 0.34917740143066867, '01:33']
+[4, 1.566247582435608, 1.914703130722046, 0.35350000858306885, 0.3535, 0.3374662995640164, '01:33']
+[5, 1.4327187538146973, 1.8936758041381836, 0.359499990940094, 0.3595, 0.3530818416798186, '01:39']
+[6, 1.2886078357696533, 1.973542332649231, 0.3702999949455261, 0.37029999999999996, 0.3607409188627277, '01:34']
+[7, 1.097507357597351, 2.104414701461792, 0.3375999927520752, 0.3376, 0.3230809088192211, '01:35']
+[8, 0.8941078782081604, 2.3468408584594727, 0.35019999742507935, 0.3502, 0.34197050826151754, '01:33']
+No improvement since epoch 3: early stopping
+
+Tiempo de entrenamiento: 942.13 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 2.3468
+Accuracy: 0.3502
+Recall: 0.3502
+F1-Score: 0.3420
+Loss: 2.3181121349334717
+Accuracy: 0.3532652258872986
+Recall (macro): 0.35322203619792153
+F1 Score (macro): 0.343483798343436
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist5_quant3_ex1
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 8200
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.728339433670044, 2.0479190349578857, 0.2831999957561493, 0.2832, 0.27867240359212114, '01:30']
+[0, 2.260028839111328, 1.8798023462295532, 0.3197000026702881, 0.3197, 0.31506013094485197, '01:33']
+[1, 2.10149884223938, 1.8285444974899292, 0.34369999170303345, 0.3437, 0.33964022084772433, '01:30']
+[2, 1.9402285814285278, 1.8603793382644653, 0.34529998898506165, 0.34530000000000005, 0.3417898317237169, '01:30']
+[3, 1.764919638633728, 1.8417773246765137, 0.36250001192092896, 0.3625, 0.3631426877208644, '01:30']
+[4, 1.6237865686416626, 2.095006227493286, 0.33160001039505005, 0.33160000000000006, 0.31228792142696327, '01:29']
+[5, 1.4416189193725586, 1.8857378959655762, 0.35350000858306885, 0.35350000000000004, 0.34877813499481475, '01:31']
+[6, 1.1967625617980957, 2.090942859649658, 0.3488999903202057, 0.3489, 0.3455020852921076, '01:40']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 737.51 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 2.0909
+Accuracy: 0.3489
+Recall: 0.3489
+F1-Score: 0.3455
+Loss: 2.1026084423065186
+Accuracy: 0.34665465354919434
+Recall (macro): 0.346730426273465
+F1 Score (macro): 0.34545389838542934
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist5_quant3_ex2
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 8200
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.7943601608276367, 2.1933047771453857, 0.25290000438690186, 0.2529, 0.23337529102173948, '01:30']
+[0, 2.268019199371338, 1.902159333229065, 0.31619998812675476, 0.3162, 0.30667922847108703, '01:31']
+[1, 2.1170966625213623, 1.869367003440857, 0.32919999957084656, 0.3292, 0.3211886032517216, '01:30']
+[2, 1.943031668663025, 1.8830541372299194, 0.34389999508857727, 0.34390000000000004, 0.3351878857866869, '01:45']
+[3, 1.8008551597595215, 1.8636287450790405, 0.35929998755455017, 0.3593, 0.35186782138879674, '01:46']
+[4, 1.5999219417572021, 1.8792310953140259, 0.35830000042915344, 0.35829999999999995, 0.34995793959028154, '02:01']
+[5, 1.428833246231079, 1.87515389919281, 0.3700000047683716, 0.37, 0.3573575985416539, '02:00']
+[6, 1.2710555791854858, 2.121310234069824, 0.3467000126838684, 0.34669999999999995, 0.33151254304424893, '02:03']
+[7, 1.0330959558486938, 2.1306114196777344, 0.34369999170303345, 0.3437, 0.3381941751720127, '02:02']
+[8, 0.8272541165351868, 2.1890275478363037, 0.3531999886035919, 0.35319999999999996, 0.3517852309446532, '01:59']
+No improvement since epoch 3: early stopping
+
+Tiempo de entrenamiento: 1092.46 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 2.1890
+Accuracy: 0.3532
+Recall: 0.3532
+F1-Score: 0.3518
+Loss: 2.250119209289551
+Accuracy: 0.3487580120563507
+Recall (macro): 0.34881892447050233
+F1 Score (macro): 0.34755233522325824
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist5_quant3_ex3
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 8200
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.6460962295532227, 2.081968307495117, 0.28790000081062317, 0.2879, 0.28275799295070103, '02:14']
+[0, 2.2593581676483154, 1.8729321956634521, 0.328000009059906, 0.328, 0.3212348086519108, '01:48']
+[1, 2.1273844242095947, 1.8195617198944092, 0.3472000062465668, 0.3472, 0.343270543971385, '01:40']
+[2, 1.9841723442077637, 1.8502111434936523, 0.35740000009536743, 0.35740000000000005, 0.3494530517512521, '01:55']
+[3, 1.8140201568603516, 1.896393895149231, 0.3425999879837036, 0.3426, 0.34302871511628297, '01:34']
+[4, 1.686055302619934, 1.9208310842514038, 0.34779998660087585, 0.3478, 0.35204065777775717, '01:34']
+[5, 1.5499705076217651, 1.9342306852340698, 0.36390000581741333, 0.3639, 0.35214980954031266, '01:30']
+[6, 1.3949514627456665, 1.9465622901916504, 0.36559998989105225, 0.3656, 0.36142451800813186, '01:31']
+No improvement since epoch 1: early stopping
+
+Tiempo de entrenamiento: 828.08 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 1.9466
+Accuracy: 0.3656
+Recall: 0.3656
+F1-Score: 0.3614
+Loss: 1.9206316471099854
+Accuracy: 0.3742988705635071
+Recall (macro): 0.3743087758324165
+F1 Score (macro): 0.3698868545464673
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist01_quant3_ex1
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 18670
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.270885467529297, 2.1486480236053467, 0.27720001339912415, 0.2772, 0.2623088013892083, '02:22']
+[0, 1.9337632656097412, 1.902411937713623, 0.33649998903274536, 0.3365, 0.32614075211838556, '02:23']
+[1, 1.7498270273208618, 1.8973890542984009, 0.3472000062465668, 0.34720000000000006, 0.33797826573508793, '02:24']
+[2, 1.6402851343154907, 1.8947209119796753, 0.3619000017642975, 0.3619, 0.35000048670207845, '02:26']
+[3, 1.4608896970748901, 1.9521753787994385, 0.34860000014305115, 0.34859999999999997, 0.3520490374098558, '02:27']
+[4, 1.3681334257125854, 1.8898295164108276, 0.3808000087738037, 0.38079999999999997, 0.3646649230907687, '02:28']
+[5, 1.2364232540130615, 1.8335107564926147, 0.39399999380111694, 0.394, 0.3854649053147362, '02:24']
+[6, 1.0868041515350342, 2.0768983364105225, 0.374099999666214, 0.3741, 0.3685548928876187, '02:21']
+[7, 0.985460102558136, 1.8609291315078735, 0.42089998722076416, 0.42089999999999994, 0.4085098373394166, '02:24']
+[8, 0.8107466101646423, 2.1762168407440186, 0.3865000009536743, 0.3865, 0.376549896860063, '02:25']
+[9, 0.6146178245544434, 2.187659978866577, 0.4113999903202057, 0.4114, 0.4052430008007223, '02:46']
+[10, 0.5095670223236084, 2.4178905487060547, 0.40049999952316284, 0.40049999999999997, 0.3910855277022158, '02:33']
+No improvement since epoch 5: early stopping
+
+Tiempo de entrenamiento: 1767.88 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 2.4179
+Accuracy: 0.4005
+Recall: 0.4005
+F1-Score: 0.3911
+Loss: 2.356717109680176
+Accuracy: 0.41266027092933655
+Recall (macro): 0.4126028091431754
+F1 Score (macro): 0.40308850446281974
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist01_quant3_ex2
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 18670
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.2359819412231445, 2.1351468563079834, 0.288100004196167, 0.2881, 0.27364532642040285, '02:21']
+[0, 1.9177793264389038, 1.9006990194320679, 0.3402999937534332, 0.34029999999999994, 0.33439747970703226, '02:25']
+[1, 1.7346335649490356, 1.8586833477020264, 0.3564999997615814, 0.3565, 0.3500610990910565, '02:33']
+[2, 1.6127339601516724, 1.805708646774292, 0.3693000078201294, 0.3693, 0.36579773063943777, '02:57']
+[3, 1.4740488529205322, 1.8675702810287476, 0.36559998989105225, 0.3656, 0.3468803116455838, '02:44']
+[4, 1.350771188735962, 1.8558998107910156, 0.37869998812675476, 0.3787, 0.3637048082104151, '02:24']
+[5, 1.20061194896698, 1.8331944942474365, 0.37599998712539673, 0.376, 0.3702421061537834, '02:23']
+[6, 1.0705705881118774, 1.8049445152282715, 0.400299996137619, 0.40029999999999993, 0.39882196861583713, '02:26']
+[7, 0.9484469890594482, 2.189012050628662, 0.36579999327659607, 0.3658, 0.35615426428748287, '02:24']
+[8, 0.7938047051429749, 2.369518280029297, 0.3732999861240387, 0.3733, 0.36976502019728336, '02:24']
+[9, 0.6135847568511963, 2.2841570377349854, 0.40720000863075256, 0.4072, 0.3943919227452141, '02:22']
+[10, 0.5143665075302124, 2.4959471225738525, 0.38600000739097595, 0.386, 0.37248493650512304, '02:23']
+[11, 0.4435610771179199, 2.452237606048584, 0.38850000500679016, 0.3885, 0.3885992030349234, '02:22']
+No improvement since epoch 6: early stopping
+
+Tiempo de entrenamiento: 1933.24 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 2.4522
+Accuracy: 0.3885
+Recall: 0.3885
+F1-Score: 0.3886
+Loss: 2.4871578216552734
+Accuracy: 0.39372995495796204
+Recall (macro): 0.39375713788348127
+F1 Score (macro): 0.3932397737907546
+---------------------------------------------------------------------------
+Ejecutando: r_cifar10_dist01_quant3_ex3
+---------------------------------------------------------------------------
+Número total de imágenes en entrenamiento: 18670
+Número total de imágenes en validación: 10000
+
+Clases: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+[0, 2.236023187637329, 2.1761767864227295, 0.28529998660087585, 0.2853, 0.2642937523749184, '05:17']
+[0, 1.8979946374893188, 1.9062072038650513, 0.3395000100135803, 0.33949999999999997, 0.33285636433063337, '02:30']
+[1, 1.7359219789505005, 1.8616708517074585, 0.3589000105857849, 0.3589, 0.3514502728627237, '02:28']
+[2, 1.6156573295593262, 1.888301968574524, 0.35100001096725464, 0.351, 0.35057043430240964, '02:30']
+[3, 1.5001330375671387, 1.7775603532791138, 0.3864000141620636, 0.3864, 0.3790471877376473, '02:27']
+[4, 1.4016144275665283, 1.800861120223999, 0.388700008392334, 0.38869999999999993, 0.3812631426344443, '02:24']
+[5, 1.2956444025039673, 1.8084940910339355, 0.3939000070095062, 0.39390000000000003, 0.3834530457734626, '02:37']
+[6, 1.1271207332611084, 1.7709418535232544, 0.41819998621940613, 0.4182, 0.41251588461855204, '02:33']
+[7, 0.9961921572685242, 1.9388015270233154, 0.41040000319480896, 0.4104, 0.4029644004477994, '02:24']
+[8, 0.8225065469741821, 1.9242888689041138, 0.421999990940094, 0.42200000000000004, 0.4180395907419207, '02:16']
+[9, 0.6402612924575806, 2.309340000152588, 0.38989999890327454, 0.3899, 0.3944323990593732, '02:23']
+[10, 0.5188257098197937, 2.2235801219940186, 0.4228000044822693, 0.42279999999999995, 0.4206777932551108, '02:15']
+[11, 0.43043088912963867, 2.59628963470459, 0.4088999927043915, 0.40890000000000004, 0.4031856725158158, '02:19']
+No improvement since epoch 6: early stopping
+
+Tiempo de entrenamiento: 2070.66 segundos
+/mnt/homeGPU/haoweihu/TFG/lib/python3.10/site-packages/fastai/learner.py:455: UserWarning: load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.
+If you only need to load model weights and optimizer state, use the safe `Learner.load` instead.
+  warn("load_learner` uses Python's insecure pickle module, which can execute malicious arbitrary code when loading. Only load files you trust.\nIf you only need to load model weights and optimizer state, use the safe `Learner.load` instead.")
+Loss: 2.5963
+Accuracy: 0.4089
+Recall: 0.4089
+F1-Score: 0.4032
+Loss: 2.5940186977386475
+Accuracy: 0.4064503312110901
+Recall (macro): 0.40640917923059067
+F1 Score (macro): 0.4006872123279594
+---------------------------------------------------------------------------
+--------------------------MODELOS BASE-----------------------------
+---------------------------------------------------------------------------
+mail: cannot send message: Process exited with a non-zero status
